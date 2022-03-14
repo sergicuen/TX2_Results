@@ -1,0 +1,44 @@
+20220313_12_38_47: Reboot tras HANG
+20220313_12_39_16: ------------------------------
+20220313_12_39_16: Hw: Jetson TX2, Pascal arch   
+20220313_12_39_16: Test: MMULT Version: DMR 
+20220313_12_39_16: Replicating the input for each kernel
+20220313_12_39_16: matrix size:3072
+20220313_12_39_16: ------------------------------
+20220313_12_39_24: - #run: 0
+20220313_12_39_24: OK
+20220313_12_39_24: Execution time: 6590877 us
+20220313_12_39_24: Time for CUDA kernels:	4748420 us
+20220313_12_39_30: - #run: 1
+20220313_12_39_30: OK
+20220313_12_39_30: Execution time: 6266140 us
+20220313_12_39_30: Time for CUDA kernels:	4553923 us
+20220313_12_39_36: - #run: 2
+20220313_12_39_36: OK
+20220313_12_39_36: Execution time: 6221972 us
+20220313_12_39_36: Time for CUDA kernels:	4563000 us
+20220313_12_39_37: ------------------------------
+20220313_12_39_37: Hw: Jetson TX2, Pascal arch   
+20220313_12_39_37: Test: MMULT Version: DMR 
+20220313_12_39_37: Replicating the input for each kernel
+20220313_12_39_37: matrix size:3072
+20220313_12_39_37: ------------------------------
+20220313_12_39_44: - #run: 0
+20220313_12_39_44: OK
+20220313_12_39_44: Execution time: 6182733 us
+20220313_12_39_44: Time for CUDA kernels:	4554620 us
+20220313_12_39_50: - #run: 1
+20220313_12_39_50: OK
+20220313_12_39_50: Execution time: 6164705 us
+20220313_12_39_50: Time for CUDA kernels:	4553642 us
+20220313_12_39_56: - #run: 2
+20220313_12_39_56: OK
+20220313_12_39_56: Execution time: 6161061 us
+20220313_12_39_56: Time for CUDA kernels:	4558599 us
+20220313_12_39_57: ------------------------------
+20220313_12_39_57: Hw: Jetson TX2, Pascal arch   
+20220313_12_39_57: Test: MMULT Version: DMR 
+20220313_12_39_57: Replicating the input for each kernel
+20220313_12_39_57: matrix size:3072
+20220313_12_39_57: ------------------------------
+20220313_12_40_22: posible HANG

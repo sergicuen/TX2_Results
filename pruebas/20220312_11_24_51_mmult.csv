@@ -1,0 +1,24 @@
+20220312_11_24_51: Reboot tras HANG
+20220312_11_25_28: ------------------------------
+20220312_11_25_28: Hw: Jetson TX2, Pascal arch   
+20220312_11_25_28: Test: MMULT Version: UNHARD 
+20220312_11_25_28: matrix size:1024
+20220312_11_25_28: ------------------------------
+20220312_11_25_29: - #run: 0
+20220312_11_25_29:  ERRORS: 386126
+20220312_11_25_29: ERRORS
+20220312_11_25_29: Execution time: 772348 us
+20220312_11_25_29: Time for CUDA kernels:	207730 us
+20220312_11_25_33: -run: 1; the launch timed out and was terminated in mmult.cu at line 527
+20220312_11_25_33: ------------------------------
+20220312_11_25_33: Hw: Jetson TX2, Pascal arch   
+20220312_11_25_33: Test: MMULT Version: UNHARD 
+20220312_11_25_33: matrix size:1024
+20220312_11_25_33: ------------------------------
+20220312_11_25_34: -run: 0; unspecified launch failure in mmult.cu at line 551
+20220312_11_25_34: ------------------------------
+20220312_11_25_34: Hw: Jetson TX2, Pascal arch   
+20220312_11_25_34: Test: MMULT Version: UNHARD 
+20220312_11_25_34: matrix size:1024
+20220312_11_25_34: ------------------------------
+20220312_11_26_54: posible HANG

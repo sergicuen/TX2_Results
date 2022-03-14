@@ -1,0 +1,8 @@
+20220313_13_53_28: Reboot tras HANG
+20220313_13_53_57: ------------------------------
+20220313_13_53_57: Hw: Jetson TX2, Pascal arch   
+20220313_13_53_57: Test: MMULT Version: DMR 
+20220313_13_53_57: Replicating the input for each kernel
+20220313_13_53_57: matrix size:3072
+20220313_13_53_57: ------------------------------
+20220313_13_54_21: posible HANG

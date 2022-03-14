@@ -1,0 +1,177 @@
+20220313_11_32_42: 202203 INICIANDO TEST
+20220313_11_33_11: ------------------------------
+20220313_11_33_11: Hw: Jetson TX2, Pascal arch   
+20220313_11_33_11: Test: MMULT Version: DMR 
+20220313_11_33_11: Replicating the input for each kernel
+20220313_11_33_11: matrix size:3072
+20220313_11_33_11: ------------------------------
+20220313_11_33_18: - #run: 0
+20220313_11_33_18: OK
+20220313_11_33_18: Execution time: 6432809 us
+20220313_11_33_18: Time for CUDA kernels:	4673613 us
+20220313_11_33_25: - #run: 1
+20220313_11_33_25: OK
+20220313_11_33_25: Execution time: 6244315 us
+20220313_11_33_25: Time for CUDA kernels:	4564323 us
+20220313_11_33_31: - #run: 2
+20220313_11_33_31: OK
+20220313_11_33_31: Execution time: 6207388 us
+20220313_11_33_31: Time for CUDA kernels:	4556446 us
+20220313_11_33_31: posible error conexión
+20220313_11_33_32: ------------------------------
+20220313_11_33_32: Hw: Jetson TX2, Pascal arch   
+20220313_11_33_32: Test: MMULT Version: DMR 
+20220313_11_33_32: Replicating the input for each kernel
+20220313_11_33_32: matrix size:3072
+20220313_11_33_32: ------------------------------
+20220313_11_33_39: - #run: 0
+20220313_11_33_39: OK
+20220313_11_33_39: Execution time: 6197283 us
+20220313_11_33_39: Time for CUDA kernels:	4557898 us
+20220313_11_33_45: - #run: 1
+20220313_11_33_45: OK
+20220313_11_33_45: Execution time: 6213209 us
+20220313_11_33_45: Time for CUDA kernels:	4586299 us
+20220313_11_33_51: - #run: 2
+20220313_11_33_51: OK
+20220313_11_33_51: Execution time: 6172353 us
+20220313_11_33_51: Time for CUDA kernels:	4560723 us
+20220313_11_33_51: posible error conexión
+20220313_11_33_52: ------------------------------
+20220313_11_33_52: Hw: Jetson TX2, Pascal arch   
+20220313_11_33_52: Test: MMULT Version: DMR 
+20220313_11_33_52: Replicating the input for each kernel
+20220313_11_33_52: matrix size:3072
+20220313_11_33_52: ------------------------------
+20220313_11_33_59: - #run: 0
+20220313_11_33_59: OK
+20220313_11_33_59: Execution time: 6210832 us
+20220313_11_33_59: Time for CUDA kernels:	4559166 us
+20220313_11_34_05: - #run: 1
+20220313_11_34_05: OK
+20220313_11_34_05: Execution time: 6203912 us
+20220313_11_34_05: Time for CUDA kernels:	4578331 us
+20220313_11_34_12: - #run: 2
+20220313_11_34_12: OK
+20220313_11_34_12: Execution time: 6278588 us
+20220313_11_34_12: Time for CUDA kernels:	4580012 us
+20220313_11_34_12: posible error conexión
+20220313_11_34_13: ------------------------------
+20220313_11_34_13: Hw: Jetson TX2, Pascal arch   
+20220313_11_34_13: Test: MMULT Version: DMR 
+20220313_11_34_13: Replicating the input for each kernel
+20220313_11_34_13: matrix size:3072
+20220313_11_34_13: ------------------------------
+20220313_11_34_19: - #run: 0
+20220313_11_34_19: OK
+20220313_11_34_19: Execution time: 6227407 us
+20220313_11_34_19: Time for CUDA kernels:	4580628 us
+20220313_11_34_26: - #run: 1
+20220313_11_34_26: OK
+20220313_11_34_26: Execution time: 6213059 us
+20220313_11_34_26: Time for CUDA kernels:	4577817 us
+20220313_11_34_32: - #run: 2
+20220313_11_34_32: OK
+20220313_11_34_32: Execution time: 6183464 us
+20220313_11_34_32: Time for CUDA kernels:	4577859 us
+20220313_11_34_32: posible error conexión
+20220313_11_34_33: ------------------------------
+20220313_11_34_33: Hw: Jetson TX2, Pascal arch   
+20220313_11_34_33: Test: MMULT Version: DMR 
+20220313_11_34_33: Replicating the input for each kernel
+20220313_11_34_33: matrix size:3072
+20220313_11_34_33: ------------------------------
+20220313_11_34_57: posible error conexión
+20220313_11_35_00: ------------------------------
+20220313_11_35_00: Hw: Jetson TX2, Pascal arch   
+20220313_11_35_00: Test: MMULT Version: DMR 
+20220313_11_35_00: Replicating the input for each kernel
+20220313_11_35_00: matrix size:3072
+20220313_11_35_00: ------------------------------
+20220313_11_35_22: posible error conexión
+20220313_11_35_25: ------------------------------
+20220313_11_35_25: Hw: Jetson TX2, Pascal arch   
+20220313_11_35_25: Test: MMULT Version: DMR 
+20220313_11_35_25: Replicating the input for each kernel
+20220313_11_35_25: matrix size:3072
+20220313_11_35_25: ------------------------------
+20220313_11_35_33: - #run: 0
+20220313_11_35_33: OK
+20220313_11_35_33: Execution time: 6665614 us
+20220313_11_35_33: Time for CUDA kernels:	4836650 us
+20220313_11_35_39: - #run: 1
+20220313_11_35_39: OK
+20220313_11_35_39: Execution time: 6212356 us
+20220313_11_35_39: Time for CUDA kernels:	4551028 us
+20220313_11_35_46: - #run: 2
+20220313_11_35_46: OK
+20220313_11_35_46: Execution time: 6203468 us
+20220313_11_35_46: Time for CUDA kernels:	4554897 us
+20220313_11_35_46: posible error conexión
+20220313_11_35_47: ------------------------------
+20220313_11_35_47: Hw: Jetson TX2, Pascal arch   
+20220313_11_35_47: Test: MMULT Version: DMR 
+20220313_11_35_47: Replicating the input for each kernel
+20220313_11_35_47: matrix size:3072
+20220313_11_35_47: ------------------------------
+20220313_11_36_11: posible error conexión
+20220313_11_36_19: ------------------------------
+20220313_11_36_19: Hw: Jetson TX2, Pascal arch   
+20220313_11_36_19: Test: MMULT Version: DMR 
+20220313_11_36_19: Replicating the input for each kernel
+20220313_11_36_19: matrix size:3072
+20220313_11_36_19: ------------------------------
+20220313_11_36_26: - #run: 0
+20220313_11_36_26: OK
+20220313_11_36_26: Execution time: 6432627 us
+20220313_11_36_26: Time for CUDA kernels:	4656392 us
+20220313_11_36_33: - #run: 1
+20220313_11_36_33: OK
+20220313_11_36_33: Execution time: 6240116 us
+20220313_11_36_33: Time for CUDA kernels:	4560725 us
+20220313_11_36_36: posible error conexión
+20220313_11_36_37: ------------------------------
+20220313_11_36_37: Hw: Jetson TX2, Pascal arch   
+20220313_11_36_37: Test: MMULT Version: DMR 
+20220313_11_36_37: Replicating the input for each kernel
+20220313_11_36_37: matrix size:3072
+20220313_11_36_37: ------------------------------
+20220313_11_36_44: - #run: 0
+20220313_11_36_44: OK
+20220313_11_36_44: Execution time: 6288154 us
+20220313_11_36_44: Time for CUDA kernels:	4560456 us
+20220313_11_36_50: - #run: 1
+20220313_11_36_50: OK
+20220313_11_36_50: Execution time: 6185739 us
+20220313_11_36_50: Time for CUDA kernels:	4574500 us
+20220313_11_36_58: - #run: 2
+20220313_11_36_58: OK
+20220313_11_36_58: Execution time: 7202916 us
+20220313_11_36_58: Time for CUDA kernels:	4552512 us
+20220313_11_36_58: posible error conexión
+20220313_11_37_00: ------------------------------
+20220313_11_37_00: Hw: Jetson TX2, Pascal arch   
+20220313_11_37_00: Test: MMULT Version: DMR 
+20220313_11_37_00: Replicating the input for each kernel
+20220313_11_37_00: matrix size:3072
+20220313_11_37_00: ------------------------------
+20220313_11_37_08: - #run: 0
+20220313_11_37_08: OK
+20220313_11_37_08: Execution time: 6482890 us
+20220313_11_37_08: Time for CUDA kernels:	4483465 us
+20220313_11_37_14: - #run: 1
+20220313_11_37_14: OK
+20220313_11_37_14: Execution time: 6450739 us
+20220313_11_37_14: Time for CUDA kernels:	4493324 us
+20220313_11_37_23: posible error conexión
+20220313_11_37_48: posible error conexión
+20220313_11_38_05: posible error conexión
+20220313_11_38_08: posible error conexión
+20220313_11_38_11: posible error conexión
+20220313_11_38_14: posible error conexión
+20220313_11_38_17: posible error conexión
+20220313_11_38_20: posible error conexión
+20220313_11_38_23: posible error conexión
+20220313_11_38_26: posible error conexión
+20220313_11_38_29: posible error conexión
+20220313_11_38_32: posible error conexión

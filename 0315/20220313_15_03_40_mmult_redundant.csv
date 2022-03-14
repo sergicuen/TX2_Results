@@ -1,0 +1,30 @@
+20220313_15_03_40: Reboot tras HANG
+20220313_15_04_10: ------------------------------
+20220313_15_04_10: Hw: Jetson TX2, Pascal arch   
+20220313_15_04_10: Test: MMULT Version: DMR 
+20220313_15_04_10: Replicating the input for each kernel
+20220313_15_04_10: matrix size:3072
+20220313_15_04_10: ------------------------------
+20220313_15_04_17: - #run: 0
+20220313_15_04_17: OK
+20220313_15_04_17: Execution time: 6653982 us
+20220313_15_04_17: Time for CUDA kernels:	4855577 us
+20220313_15_04_23: - #run: 1
+20220313_15_04_23: OK
+20220313_15_04_23: Execution time: 6224988 us
+20220313_15_04_23: Time for CUDA kernels:	4559806 us
+20220313_15_04_29: - #run: 2
+20220313_15_04_29: OK
+20220313_15_04_29: Execution time: 6212344 us
+20220313_15_04_29: Time for CUDA kernels:	4569216 us
+20220313_15_04_30: ------------------------------
+20220313_15_04_30: Hw: Jetson TX2, Pascal arch   
+20220313_15_04_30: Test: MMULT Version: DMR 
+20220313_15_04_30: Replicating the input for each kernel
+20220313_15_04_30: matrix size:3072
+20220313_15_04_30: ------------------------------
+20220313_15_04_37: - #run: 0
+20220313_15_04_37: OK
+20220313_15_04_37: Execution time: 6194163 us
+20220313_15_04_37: Time for CUDA kernels:	4560412 us
+20220313_15_04_55: posible HANG

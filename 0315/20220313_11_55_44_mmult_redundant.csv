@@ -1,0 +1,35 @@
+20220313_11_55_44: 202203 INICIANDO TEST
+20220313_11_56_13: ------------------------------
+20220313_11_56_13: Hw: Jetson TX2, Pascal arch   
+20220313_11_56_13: Test: MMULT Version: DMR 
+20220313_11_56_13: Replicating the input for each kernel
+20220313_11_56_13: matrix size:3072
+20220313_11_56_13: ------------------------------
+20220313_11_56_21: - #run: 0
+20220313_11_56_21: OK
+20220313_11_56_21: Execution time: 6873464 us
+20220313_11_56_21: Time for CUDA kernels:	5047701 us
+20220313_11_56_27: - #run: 1
+20220313_11_56_27: OK
+20220313_11_56_27: Execution time: 6254865 us
+20220313_11_56_27: Time for CUDA kernels:	4569536 us
+20220313_11_56_34: - #run: 2
+20220313_11_56_34: OK
+20220313_11_56_34: Execution time: 6217700 us
+20220313_11_56_34: Time for CUDA kernels:	4567371 us
+20220313_11_56_35: ------------------------------
+20220313_11_56_35: Hw: Jetson TX2, Pascal arch   
+20220313_11_56_35: Test: MMULT Version: DMR 
+20220313_11_56_35: Replicating the input for each kernel
+20220313_11_56_35: matrix size:3072
+20220313_11_56_35: ------------------------------
+20220313_11_56_42: - #run: 0
+20220313_11_56_42: OK
+20220313_11_56_42: Execution time: 6865091 us
+20220313_11_56_42: Time for CUDA kernels:	5159541 us
+20220313_11_56_48: - #run: 1
+20220313_11_56_48: OK
+20220313_11_56_48: Execution time: 6295847 us
+20220313_11_56_48: Time for CUDA kernels:	4591215 us
+20220313_11_56_57: -run: 2; the launch timed out and was terminated in mmult.cu at line 526
+20220313_11_56_59: posible HANG

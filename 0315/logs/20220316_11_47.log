@@ -1,0 +1,1414 @@
+[0000.286] I> Welcome to MB2(TBoot-BPMP)(version: 01.00.160913-t186-M-00.00-mobile-c368a720)
+[2022-03-13 10:08:27] [0000.294] I> Boot-device: eMMC
+[2022-03-13 10:08:27] [0000.302] I> sdmmc bdev is already initialized
+[2022-03-13 10:08:27] [0000.306] I> pmic: reset reason (nverc)	: 0x80
+[2022-03-13 10:08:27] [0000.340] I> Found 19 partitions in SDMMC_BOOT (instance 3)
+[2022-03-13 10:08:27] [0000.359] I> Found 33 partitions in SDMMC_USER (instance 3)
+[2022-03-13 10:08:27] [0000.365] W> No valid slot number is found in scratch register
+[2022-03-13 10:08:27] [0000.371] W> Return default slot: _a
+[2022-03-13 10:08:27] [0000.374] I> A/B: bin_type (16) slot 0
+[2022-03-13 10:08:27] [0000.378] I> Loading partition bpmp-fw at 0xd7800000
+[2022-03-13 10:08:27] [0000.383] I> Reading two headers - addr:0xd7800000 blocks:1
+[2022-03-13 10:08:27] [0000.388] I> Addr: 0xd7800000, start-block: 58777608, num_blocks: 1
+[2022-03-13 10:08:27] [0000.413] I> Binary(16) of size 534416 is loaded @ 0xd7800000
+[2022-03-13 10:08:27] [0000.419] W> No valid slot number is found in scratch register
+[2022-03-13 10:08:27] [0000.424] W> Return default slot: _a
+[2022-03-13 10:08:27] [0000.428] I> A/B: bin_type (17) slot 0
+[2022-03-13 10:08:27] [0000.431] I> Loading partition bpmp-fw-dtb at 0xd79f0000
+[2022-03-13 10:08:27] [0000.437] I> Reading two headers - addr:0xd79f0000 blocks:1
+[2022-03-13 10:08:27] [0000.442] I> Addr: 0xd79f0000, start-block: 58780024, num_blocks: 1
+[2022-03-13 10:08:27] [0000.468] I> Binary(17) of size 604720 is loaded @ 0xd796c400
+[2022-03-13 10:08:27] [0000.698] I> Loading SCE-FW ...
+[2022-03-13 10:08:27] [0000.701] W> No valid slot number is found in scratch register
+[2022-03-13 10:08:27] [0000.706] W> Return default slot: _a
+[2022-03-13 10:08:27] [0000.710] I> A/B: bin_type (12) slot 0
+[2022-03-13 10:08:27] [0000.713] I> Loading partition sce-fw at 0xd7300000
+[2022-03-13 10:08:27] [0000.718] I> Reading two headers - addr:0xd7300000 blocks:1
+[2022-03-13 10:08:27] [0000.724] I> Addr: 0xd7300000, start-block: 58784120, num_blocks: 1
+[2022-03-13 10:08:27] [0000.743] I> Binary(12) of size 125632 is loaded @ 0xd7300000
+[2022-03-13 10:08:27] [0000.748] I> Init SCE
+[2022-03-13 10:08:27] [0000.751] I> Loading APE-FW ...
+[2022-03-13 10:08:27] [0000.754] W> No valid slot number is found in scratch register
+[2022-03-13 10:08:27] [0000.760] W> Return default slot: _a
+[2022-03-13 10:08:27] [0000.763] I> A/B: bin_type (11) slot 0
+[2022-03-13 10:08:27] [0000.767] I> Loading partition adsp-fw at 0xd7400000
+[2022-03-13 10:08:27] [0000.771] I> Reading two headers - addr:0xd7400000 blocks:1
+[2022-03-13 10:08:27] [0000.777] I> Addr: 0xd7400000, start-block: 58761224, num_blocks: 1
+[2022-03-13 10:08:27] [0000.796] I> Binary(11) of size 77216 is loaded @ 0xd7400000
+[2022-03-13 10:08:27] [0000.802] I> Copy BTCM section
+[2022-03-13 10:08:27] [0000.805] W> No valid slot number is found in scratch register
+[2022-03-13 10:08:27] [0000.810] W> Return default slot: _a
+[2022-03-13 10:08:27] [0000.814] I> A/B: bin_type (13) slot 0
+[2022-03-13 10:08:27] [0000.817] I> Loading partition cpu-bootloader at 0x96000000
+[2022-03-13 10:08:27] [0000.823] I> Reading two headers - addr:0x96000000 blocks:1
+[2022-03-13 10:08:27] [0000.828] I> Addr: 0x96000000, start-block: 58740744, num_blocks: 1
+[2022-03-13 10:08:27] [0000.849] I> Binary(13) of size 308800 is loaded @ 0x96000000
+[2022-03-13 10:08:27] [0000.855] W> No valid slot number is found in scratch register
+[2022-03-13 10:08:27] [0000.861] W> Return default slot: _a
+[2022-03-13 10:08:27] [0000.864] I> A/B: bin_type (20) slot 0
+[2022-03-13 10:08:27] [0000.868] I> Loading partition bootloader-dtb at 0x85205400
+[2022-03-13 10:08:27] [0000.873] I> Reading two headers - addr:0x85205400 blocks:1
+[2022-03-13 10:08:27] [0000.879] I> Addr: 0x85205400, start-block: 58742792, num_blocks: 1
+[2022-03-13 10:08:27] [0000.900] I> Binary(20) of size 375568 is loaded @ 0x85205400
+[2022-03-13 10:08:27] [0000.906] W> No valid slot number is found in scratch register
+[2022-03-13 10:08:27] [0000.912] W> Return default slot: _a
+[2022-03-13 10:08:27] [0000.915] I> A/B: bin_type (14) slot 0
+[2022-03-13 10:08:27] [0000.919] I> Loading partition secure-os at 0x85305600
+[2022-03-13 10:08:27] [0000.924] I> Reading two headers - addr:0x85305600 blocks:1
+[2022-03-13 10:08:27] [0000.929] I> Addr: 0x85305600, start-block: 58744840, num_blocks: 1
+[2022-03-13 10:08:27] [0000.951] I> Binary(14) of size 402864 is loaded @ 0x85305600
+[2022-03-13 10:08:27] [0000.959] I> TOS boot-params @ 0x85000000
+[2022-03-13 10:08:27] [0000.963] I> TOS params prepared
+[2022-03-13 10:08:27] [0000.966] I> Loading EKS ...
+[2022-03-13 10:08:27] [0000.969] I> A/B: bin_type (15) slot 0
+[2022-03-13 10:08:27] [0000.972] I> Loading partition eks at 0x85905800
+[2022-03-13 10:08:27] [0000.977] I> Reading two headers - addr:0x85905800 blocks:1
+[2022-03-13 10:08:27] [0000.982] I> Addr: 0x85905800, start-block: 58757128, num_blocks: 1
+[2022-03-13 10:08:27] [0001.001] I> Binary(15) of size 1040 is loaded @ 0x85905800
+[2022-03-13 10:08:27] [0001.007] I> EKB detected (length: 0x400) @ 0x85905800
+[2022-03-13 10:08:27] [0001.012] I> Copied encrypted keys
+[2022-03-13 10:08:27] [0001.015] I> boot profiler @ 0x275844000
+[2022-03-13 10:08:27] [0001.019] I> boot profiler for TOS @ 0x275844000
+[2022-03-13 10:08:27] [0001.024] I> Unhalting SCE
+[2022-03-13 10:08:27] [0001.027] I> Primary Memory Start:80000000 Size:70000000
+[2022-03-13 10:08:27] [0001.032] I> Extended Memory Start:f0110000 Size:1856f0000
+[2022-03-13 10:08:27] [0001.039] I> MB2(TBoot-BPMP) done
+[2022-03-13 10:08:27] 
+[2022-03-13 10:08:27] NOTICE:  BL31: v1.3(release):b5eeb33f7
+[2022-03-13 10:08:27] NOTICE:  BL31: Built : 12:15:17, Jul 26 2021
+[2022-03-13 10:08:27] ipc-unittest-main: 1519: Welcome to IPC unittest!!!
+[2022-03-13 10:08:27] ipc-unittest-main: 1531: waiting forever
+[2022-03-13 10:08:27] ipc-unittest-srv: 329: Init unittest services!!!
+[2022-03-13 10:08:27] hwkey-agent: 41: hwkey-agent is running!!
+[2022-03-13 10:08:27] hwkey-agent: 315: key_mgnt_processing .......
+[2022-03-13 10:08:27] hwkey-agent: 223: Setting EKB key 0 to slot 14
+[2022-03-13 10:08:27] hwkey-agent: 178: Init hweky-agent services!!
+[2022-03-13 10:08:27] luks-srv: 40: luks-srv is running!!
+[2022-03-13 10:08:27] luks-srv: 157: Init luks-srv IPC services!!
+[2022-03-13 10:08:27] platform_bootstrap_epilog: trusty bootstrap complete
+[2022-03-13 10:08:28] [0001.411] I> Welcome to Cboot
+[2022-03-13 10:08:28] [0001.414] I> Cboot Version: t186-00029e71
+[2022-03-13 10:08:28] [0001.418] I> CPU-BL Params @ 0x275800000
+[2022-03-13 10:08:28] [0001.421] I>  0) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:08:28] [0001.426] I>  1) Base:0x277f00000 Size:0x00100000
+[2022-03-13 10:08:28] [0001.430] I>  2) Base:0x277e00000 Size:0x00100000
+[2022-03-13 10:08:28] [0001.435] I>  3) Base:0x277d00000 Size:0x00100000
+[2022-03-13 10:08:28] [0001.439] I>  4) Base:0x277c00000 Size:0x00100000
+[2022-03-13 10:08:28] [0001.444] I>  5) Base:0x277b00000 Size:0x00100000
+[2022-03-13 10:08:28] [0001.448] I>  6) Base:0x277800000 Size:0x00200000
+[2022-03-13 10:08:28] [0001.453] I>  7) Base:0x277400000 Size:0x00400000
+[2022-03-13 10:08:28] [0001.458] I>  8) Base:0x277a00000 Size:0x00100000
+[2022-03-13 10:08:28] [0001.462] I>  9) Base:0x277300000 Size:0x00100000
+[2022-03-13 10:08:28] [0001.467] I> 10) Base:0x276800000 Size:0x00800000
+[2022-03-13 10:08:28] [0001.471] I> 11) Base:0x30000000 Size:0x00040000
+[2022-03-13 10:08:28] [0001.476] I> 12) Base:0xf0000000 Size:0x00100000
+[2022-03-13 10:08:28] [0001.480] I> 13) Base:0x30040000 Size:0x00001000
+[2022-03-13 10:08:28] [0001.484] I> 14) Base:0x30048000 Size:0x00001000
+[2022-03-13 10:08:28] [0001.489] I> 15) Base:0x30049000 Size:0x00001000
+[2022-03-13 10:08:28] [0001.493] I> 16) Base:0x3004a000 Size:0x00001000
+[2022-03-13 10:08:28] [0001.498] I> 17) Base:0x3004b000 Size:0x00001000
+[2022-03-13 10:08:28] [0001.502] I> 18) Base:0x3004c000 Size:0x00001000
+[2022-03-13 10:08:28] [0001.507] I> 19) Base:0x3004d000 Size:0x00001000
+[2022-03-13 10:08:28] [0001.511] I> 20) Base:0x3004e000 Size:0x00001000
+[2022-03-13 10:08:28] [0001.515] I> 21) Base:0x3004f000 Size:0x00001000
+[2022-03-13 10:08:28] [0001.520] I> 22) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:08:28] [0001.524] I> 23) Base:0xf0100000 Size:0x00010000
+[2022-03-13 10:08:28] [0001.529] I> 24) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:08:28] [0001.533] I> 25) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:08:28] [0001.538] I> 26) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:08:28] [0001.542] I> 27) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:08:28] [0001.546] I> 28) Base:0x84400000 Size:0x00400000
+[2022-03-13 10:08:28] [0001.551] I> 29) Base:0x30000000 Size:0x00010000
+[2022-03-13 10:08:28] [0001.555] I> 30) Base:0x278000000 Size:0x08000000
+[2022-03-13 10:08:28] [0001.560] I> 31) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:08:28] [0001.564] I> 32) Base:0x276000000 Size:0x00600000
+[2022-03-13 10:08:28] [0001.569] I> 33) Base:0x80000000 Size:0x70000000
+[2022-03-13 10:08:28] [0001.573] I> 34) Base:0xf0110000 Size:0x1856f0000
+[2022-03-13 10:08:28] [0001.578] I> 35) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:08:28] [0001.582] I> 36) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:08:28] [0001.587] I> 37) Base:0x2772e0000 Size:0x00020000
+[2022-03-13 10:08:28] [0001.591] I> 38) Base:0x84000000 Size:0x00400000
+[2022-03-13 10:08:28] [0001.596] I> 39) Base:0x96000000 Size:0x02000000
+[2022-03-13 10:08:28] [0001.600] I> 40) Base:0x85000000 Size:0x01200000
+[2022-03-13 10:08:28] [0001.604] I> 41) Base:0x275800000 Size:0x00500000
+[2022-03-13 10:08:28] [0001.609] I> 42) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:08:28] [0001.613] I> 43) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:08:28] [0001.618] GIC-SPI Target CPU: 4
+[2022-03-13 10:08:28] [0001.621] Interrupts Init done
+[2022-03-13 10:08:28] [0001.624] calling constructors
+[2022-03-13 10:08:28] [0001.627] initializing heap
+[2022-03-13 10:08:28] [0001.630] initializing threads
+[2022-03-13 10:08:28] [0001.633] initializing timers
+[2022-03-13 10:08:28] [0001.636] creating bootstrap completion thread
+[2022-03-13 10:08:28] [0001.641] top of bootstrap2()
+[2022-03-13 10:08:28] [0001.644] CPU: ARM Cortex A57
+[2022-03-13 10:08:28] [0001.647] CPU: MIDR: 0x411FD073, MPIDR: 0x80000100
+[2022-03-13 10:08:28] [0001.652] initializing platform
+[2022-03-13 10:08:28] [0001.656] I> Bl_dtb @0x85205400
+[2022-03-13 10:08:28] [0001.659] I> gpio framework initialized
+[2022-03-13 10:08:28] [0001.665] I> tegrabl_gpio_driver_register: register 'nvidia,tegra186-gpio' driver
+[2022-03-13 10:08:28] [0001.675] I> tegrabl_gpio_driver_register: register 'nvidia,tegra186-gpio-aon' driver
+[2022-03-13 10:08:28] [0001.683] I> GPIO framework and drivers are initialized.
+[2022-03-13 10:08:28] [0001.688] I> Boot-device: eMMC
+[2022-03-13 10:08:28] [0001.695] I> sdmmc bdev is already initialized
+[2022-03-13 10:08:28] [0001.726] I> Found 19 partitions in SDMMC_BOOT (instance 3)
+[2022-03-13 10:08:28] [0001.744] I> Found 33 partitions in SDMMC_USER (instance 3)
+[2022-03-13 10:08:28] [0001.749] W> opt-in fuse is not set, skip fuse_burning
+[2022-03-13 10:08:28] [0001.754] I> Reserved memory at 0xfbe00000 for U-Boot relocation
+[2022-03-13 10:08:28] [0001.760] W> No valid slot number is found in scratch register
+[2022-03-13 10:08:28] [0001.765] W> Return default slot: _a
+[2022-03-13 10:08:28] [0001.775] I> A/B: bin_type (21) slot 0
+[2022-03-13 10:08:28] [0001.778] I> Loading kernel-dtb from partition
+[2022-03-13 10:08:28] [0001.783] I> Loading partition kernel-dtb at 0x80000000 from device(0x1)
+[2022-03-13 10:08:28] [0001.800] I> Kernel_dtb @0x80000000
+[2022-03-13 10:08:28] [0001.803] I> tegrabl_tca9539_init: i2c bus: 0, slave addr: 0xee
+[2022-03-13 10:08:28] [0001.814] I> tegrabl_gpio_driver_register: register 'tca9539_gpio_driver' driver
+[2022-03-13 10:08:28] [0001.821] I> tegrabl_tca9539_init: i2c bus: 0, slave addr: 0xe8
+[2022-03-13 10:08:28] [0001.830] I> tegrabl_gpio_driver_register: register 'tca9539_gpio_driver' driver
+[2022-03-13 10:08:28] [0001.840] I> fixed regulator driver initialized
+[2022-03-13 10:08:28] [0001.873] I> register 'maxim' power off handle
+[2022-03-13 10:08:28] [0001.880] I> virtual i2c enabled
+[2022-03-13 10:08:28] [0001.883] I> registered 'maxim,max77620' pmic
+[2022-03-13 10:08:28] [0001.887] I> tegrabl_gpio_driver_register: register 'max77620-gpio' driver
+[2022-03-13 10:08:28] [0001.901] E> failed to read label property for node 324936: 13
+[2022-03-13 10:08:28] [0001.909] E> failed to read reg property for node 325032: 13
+[2022-03-13 10:08:28] [0001.918] E> failed to read reg property for node 325084: 13
+[2022-03-13 10:08:28] [0001.926] E> failed to read label property for node 325168: 13
+[2022-03-13 10:08:28] [0001.934] E> failed to read label property for node 325236: 13
+[2022-03-13 10:08:28] [0001.943] E> failed to read reg property for node 325304: 13
+[2022-03-13 10:08:28] [0001.951] E> failed to read reg property for node 325376: 13
+[2022-03-13 10:08:28] [0001.962] I> Find /i2c@c250000's alias i2c7
+[2022-03-13 10:08:28] [0001.966] I> Reading eeprom i2c=7 address=0x50
+[2022-03-13 10:08:28] [0001.995] I> Device at /i2c@c250000:0x50
+[2022-03-13 10:08:28] [0001.999] I> Reading eeprom i2c=7 address=0x57
+[2022-03-13 10:08:28] [0002.027] I> Device at /i2c@c250000:0x57
+[2022-03-13 10:08:28] [0002.032] I> Find /i2c@c240000's alias i2c1
+[2022-03-13 10:08:28] [0002.036] I> Reading eeprom i2c=1 address=0x51
+[2022-03-13 10:08:28] [0002.041] E> I2C: slave not found in slaves.
+[2022-03-13 10:08:28] [0002.045] E> I2C: Could not write 0 bytes to slave: 0x00a2 with repeat start true.
+[2022-03-13 10:08:28] [0002.053] E> I2C_DEV: Failed to send register address 0x00000000.
+[2022-03-13 10:08:28] [0002.059] E> I2C_DEV: Could not read 256 registers of size 1 from slave 0xa2 at 0x00000000 via instance 1.
+[2022-03-13 10:08:28] [0002.068] E> eeprom: Retry to read I2C slave device.
+[2022-03-13 10:08:28] [0002.073] E> I2C: slave not found in slaves.
+[2022-03-13 10:08:28] [0002.077] E> I2C: Could not write 0 bytes to slave: 0x00a2 with repeat start true.
+[2022-03-13 10:08:28] [0002.085] E> I2C_DEV: Failed to send register address 0x00000000.
+[2022-03-13 10:08:28] [0002.091] E> I2C_DEV: Could not read 256 registers of size 1 from slave 0xa2 at 0x00000000 via instance 1.
+[2022-03-13 10:08:28] [0002.100] E> eeprom: Failed to read I2C slave device
+[2022-03-13 10:08:28] [0002.105] I> Eeprom read failed 0x3526070d
+[2022-03-13 10:08:28] [0002.109] I> Find /i2c@3160000's alias i2c0
+[2022-03-13 10:08:28] [0002.113] I> Reading eeprom i2c=0 address=0x50
+[2022-03-13 10:08:28] [0002.118] E> I2C: slave not found in slaves.
+[2022-03-13 10:08:28] [0002.122] E> I2C: Could not write 0 bytes to slave: 0x00a0 with repeat start true.
+[2022-03-13 10:08:28] [0002.130] E> I2C_DEV: Failed to send register address 0x00000000.
+[2022-03-13 10:08:28] [0002.136] E> I2C_DEV: Could not read 256 registers of size 1 from slave 0xa0 at 0x00000000 via instance 0.
+[2022-03-13 10:08:28] [0002.145] E> eeprom: Failed to read I2C slave device
+[2022-03-13 10:08:28] [0002.150] I> Eeprom read failed 0x3526070d
+[2022-03-13 10:08:28] [0002.155] I> Find /i2c@3180000's alias i2c2
+[2022-03-13 10:08:28] [0002.159] I> Reading eeprom i2c=2 address=0x54
+[2022-03-13 10:08:28] [0002.163] I> Enabling gpio chip_id = 2, gpio pin = 9
+[2022-03-13 10:08:29] [0002.193] I> Disabling gpio chip_id = 2, gpio pin = 9
+[2022-03-13 10:08:29] [0002.199] I> Device at /i2c@3180000:0x54
+[2022-03-13 10:08:29] [0002.202] I> Reading eeprom i2c=2 address=0x57
+[2022-03-13 10:08:29] [0002.207] I> Enabling gpio chip_id = 2, gpio pin = 9
+[2022-03-13 10:08:29] [0002.212] E> I2C: slave not found in slaves.
+[2022-03-13 10:08:29] [0002.216] E> I2C: Could not write 0 bytes to slave: 0x00ae with repeat start true.
+[2022-03-13 10:08:29] [0002.224] E> I2C_DEV: Failed to send register address 0x00000000.
+[2022-03-13 10:08:29] [0002.230] E> I2C_DEV: Could not read 256 registers of size 1 from slave 0xae at 0x00000000 via instance 2.
+[2022-03-13 10:08:29] [0002.239] E> eeprom: Failed to read I2C slave device
+[2022-03-13 10:08:29] [0002.244] I> Disabling gpio chip_id = 2, gpio pin = 9
+[2022-03-13 10:08:29] [0002.249] I> Eeprom read failed 0x00000000
+[2022-03-13 10:08:29] [0002.253] I> create_pm_ids: id: 3310-1000-D00-L, len: 15
+[2022-03-13 10:08:29] [0002.258] I> config: mem-type:00,power-config:00,misc-config:00,modem-config:00,touch-config:00,display-config:00,, len: 93
+[2022-03-13 10:08:29] [0002.269] I> create_pm_ids: id: 2597-0000-900-E, len: 15
+[2022-03-13 10:08:29] [0002.274] I> config: mem-type:00,power-config:00,misc-config:00,modem-config:00,touch-config:00,display-config:00,, len: 93
+[2022-03-13 10:08:29] [0002.285] I> create_pm_ids: id: 3326-1000-000-M, len: 15
+[2022-03-13 10:08:29] [0002.291] I> config: mem-type:ff,power-config:ff,misc-config:ff,modem-config:ff,touch-config:ff,display-config:ff,, len: 93
+[2022-03-13 10:08:29] [0002.326] I> enabling 'vdd-hdmi' regulator
+[2022-03-13 10:08:29] [0002.341] I> regulator 'vdd-hdmi' already enabled
+[2022-03-13 10:08:29] [0002.346] E> tegrabl_display_init_regulator: hdmi cable is not connected
+[2022-03-13 10:08:29] [0002.352] E> tegrabl_display_get_pdata, failed to parse dtb settings
+[2022-03-13 10:08:29] [0002.361] E> cannot find any other nvdisp nodes
+[2022-03-13 10:08:29] [0002.366] E> no valid display unit config found in dtb
+[2022-03-13 10:08:29] [0002.371] W> display init failed
+[2022-03-13 10:08:29] [0002.374] initializing target
+[2022-03-13 10:08:29] [0002.378] calling apps_init()
+[2022-03-13 10:08:29] [0002.381] starting app kernel_boot_app
+[2022-03-13 10:08:29] [0002.403] I> found decompressor handler: lz4-legacy
+[2022-03-13 10:08:29] [0002.407] I> decompressing BMP blob ...
+[2022-03-13 10:08:29] [0002.420] I> Kernel type = Normal
+[2022-03-13 10:08:29] [0002.423] I> ########## Fixed storage boot ##########
+[2022-03-13 10:08:29] [0002.428] I> Loading kernel-bootctrl from partition
+[2022-03-13 10:08:29] [0002.432] I> Loading partition kernel-bootctrl at 0xa8000000 from device(0x1)
+[2022-03-13 10:08:29] [0002.447] W> tegrabl_get_kernel_bootctrl: magic number(0x00000000) is invalid
+[2022-03-13 10:08:29] [0002.454] W> tegrabl_get_kernel_bootctrl: use default dummy boot control data
+[2022-03-13 10:08:29] [0002.461] W> No valid slot number is found in scratch register
+[2022-03-13 10:08:29] [0002.467] W> Return default slot: _a
+[2022-03-13 10:08:29] [0002.470] I> A/B: bin_type (24) slot 0
+[2022-03-13 10:08:29] [0002.486] I> Boot image size read from image header: 9913d
+[2022-03-13 10:08:29] [0002.491] I> Boot image load address: 0x80400000
+[2022-03-13 10:08:29] [0002.495] I> Loading kernel from partition
+[2022-03-13 10:08:29] [0002.499] I> Loading partition kernel at 0x80400000 from device(0x1)
+[2022-03-13 10:08:30] [0003.441] I> Validate kernel ...
+[2022-03-13 10:08:30] [0003.444] I> T18x: Authenticate kernel (bin_type 24), max size 0x4000000
+[2022-03-13 10:08:30] [0003.452] I> Decrypt the buffer ... [0003.456] W> tegrabl_decrypt_block: fuse (0x0) is not burnt to do encryption (0x4); skip decryption.
+[2022-03-13 10:08:30] [0003.465] I> done
+[2022-03-13 10:08:30] [0003.466] I> Checking boot.img header magic ... [0003.471] I> [OK]
+[2022-03-13 10:08:30] [0003.472] I> kernel-dtb is already loaded
+[2022-03-13 10:08:30] [0003.476] I> Validate kernel-dtb ...
+[2022-03-13 10:08:30] [0003.479] I> T18x: Authenticate kernel-dtb (bin_type 21), max size 0x100000
+[2022-03-13 10:08:30] [0003.487] I> Decrypt the buffer ... [0003.490] W> tegrabl_decrypt_block: fuse (0x0) is not burnt to do encryption (0x4); skip decryption.
+[2022-03-13 10:08:30] [0003.499] I> done
+[2022-03-13 10:08:30] [0003.501] I> Kernel hdr @0x80400000
+[2022-03-13 10:08:30] [0003.504] I> Kernel dtb @0x80000000
+[2022-03-13 10:08:30] [0003.508] I> decompressor handler not found
+[2022-03-13 10:08:30] [0003.512] I> Copying kernel image (627005 bytes) from 0x80400800 to 0x80600000 ... [0003.519] I> Done
+[2022-03-13 10:08:30] [0003.521] I> Move ramdisk (len: 0) from 0x8049a000 to 0x947d0000
+[2022-03-13 10:08:30] [0003.529] I> Updated bpmp info to DTB
+[2022-03-13 10:08:30] [0003.535] I> Ramdisk: Base: 0x947d0000; Size: 0x0
+[2022-03-13 10:08:30] [0003.539] I> Updated initrd info to DTB
+[2022-03-13 10:08:30] [0003.543] W> WARN: Fail to override "console=none" in commandline
+[2022-03-13 10:08:30] [0003.549] I> Active rootfs suffix: 
+[2022-03-13 10:08:30] [0003.552] E> tegrabl_linuxboot_add_disp_param, du 0 failed to get display params
+[2022-03-13 10:08:30] [0003.559] E> tegrabl_linuxboot_add_disp_param, du 0 failed to get display params
+[2022-03-13 10:08:30] [0003.566] E> tegrabl_linuxboot_add_disp_param, du 0 failed to get display params
+[2022-03-13 10:08:30] [0003.574] I> disabled_core_mask: 0xffffff0c
+[2022-03-13 10:08:30] [0003.578] W> No valid slot number is found in scratch register
+[2022-03-13 10:08:30] [0003.583] W> Return default slot: _a
+[2022-03-13 10:08:30] [0003.587] I> Active slot suffix: 
+[2022-03-13 10:08:30] [0003.590] I> add_boot_slot_suffix: slot_suffix = 
+[2022-03-13 10:08:30] [0003.594] I> Linux Cmdline: console=ttyS0,115200 androidboot.presilicon=true firmware_class.path=/etc/firmware root=/dev/mmcblk0p1 rw rootwait rootfstype=ext4 console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0 isolcpus=1-2  video=tegrafb earlycon=uart8250,mmio32,0x3100000 nvdumper_reserved=0x2772e0000 gpt rootfs.slot_suffix= usbcore.old_scheme_first=1 tegraid=18.1.2.0.0 maxcpus=6 no_console_suspend boot.slot_suffix= boot.ratchetvalues=0.2031647.1 vpr_resize bl_prof_dataptr=0x10000@0x275840000 sdhci_tegra.en_boot_part_access=1 
+[2022-03-13 10:08:30] [0003.642] I> Updated bootarg info to DTB
+[2022-03-13 10:08:30] [0003.646] I> eeprom_get_mac_addr: MAC (type: 0): 48:b0:2d:0f:11:c5
+[2022-03-13 10:08:30] [0003.652] I> eeprom_get_mac_addr: MAC (type: 1): 48:b0:2d:0f:11:c6
+[2022-03-13 10:08:30] [0003.658] I> eeprom_get_mac_addr: MAC (type: 2): 48:b0:2d:0f:11:c7
+[2022-03-13 10:08:30] [0003.664] E> Found no plugin manager ids in source DT
+[2022-03-13 10:08:30] [0003.669] W> Add plugin manager ids from board info
+[2022-03-13 10:08:30] [0003.674] W> "plugin-manager" doesn't exist, creating
+[2022-03-13 10:08:30] [0003.679] W> "ids" doesn't exist, creating
+[2022-03-13 10:08:30] [0003.683] W> "connection" doesn't exist, creating
+[2022-03-13 10:08:30] [0003.687] W> "configs" doesn't exist, creating
+[2022-03-13 10:08:30] [0003.692] I> create_pm_ids: id: 3310-1000-D00-L, len: 15
+[2022-03-13 10:08:30] [0003.697] I> config: mem-type:00,power-config:00,misc-config:00,modem-config:00,touch-config:00,display-config:00,, len: 93
+[2022-03-13 10:08:30] [0003.708] I> create_pm_ids: id: 2597-0000-900-E, len: 15
+[2022-03-13 10:08:30] [0003.713] I> config: mem-type:00,power-config:00,misc-config:00,modem-config:00,touch-config:00,display-config:00,, len: 93
+[2022-03-13 10:08:30] [0003.724] I> create_pm_ids: id: 3326-1000-000-M, len: 15
+[2022-03-13 10:08:30] [0003.729] I> config: mem-type:ff,power-config:ff,misc-config:ff,modem-config:ff,touch-config:ff,display-config:ff,, len: 93
+[2022-03-13 10:08:30] [0003.740] I> Adding plugin-manager/ids/3310-1000-D00=/i2c@c250000:module@0x50
+[2022-03-13 10:08:30] [0003.747] W> "i2c@c250000" doesn't exist, creating
+[2022-03-13 10:08:30] [0003.752] W> "module@0x50" doesn't exist, creating
+[2022-03-13 10:08:30] [0003.757] I> Adding plugin-manager/ids/2597-0000-900=/i2c@c250000:module@0x57
+[2022-03-13 10:08:30] [0003.764] W> "module@0x57" doesn't exist, creating
+[2022-03-13 10:08:30] [0003.769] I> Adding plugin-manager/ids/3326-1000-000=/i2c@3180000:module@0x54
+[2022-03-13 10:08:30] [0003.776] W> "i2c@3180000" doesn't exist, creating
+[2022-03-13 10:08:30] [0003.781] W> "module@0x54" doesn't exist, creating
+[2022-03-13 10:08:30] [0003.788] I> Adding plugin-manager/ids/3310-1000-D00-L
+[2022-03-13 10:08:30] [0003.795] I> Adding plugin-manager/configs/3310-mem-type 00
+[2022-03-13 10:08:30] [0003.801] I> Adding plugin-manager/configs/3310-power-config 00
+[2022-03-13 10:08:30] [0003.806] I> Adding plugin-manager/configs/3310-misc-config 00
+[2022-03-13 10:08:30] [0003.812] I> Adding plugin-manager/configs/3310-modem-config 00
+[2022-03-13 10:08:30] [0003.818] I> Adding plugin-manager/configs/3310-touch-config 00
+[2022-03-13 10:08:30] [0003.824] I> Adding plugin-manager/configs/3310-display-config 00
+[2022-03-13 10:08:30] [0003.830] I> Adding plugin-manager/cvm
+[2022-03-13 10:08:30] [0003.834] W> "chip-id" doesn't exist, creating
+[2022-03-13 10:08:30] [0003.839] I> Adding plugin-manager/chip-id/A02P
+[2022-03-13 10:08:30] [0003.843] W> "odm-data" doesn't exist, creating
+[2022-03-13 10:08:30] [0003.848] I> Adding /chosen/plugin-manager/odm-data
+[2022-03-13 10:08:30] [0003.858] I> added [base:0x80000000, size:0x70000000] to /memory
+[2022-03-13 10:08:30] [0003.863] I> added [base:0xf0200000, size:0x185600000] to /memory
+[2022-03-13 10:08:30] [0003.869] I> added [base:0x275e00000, size:0x200000] to /memory
+[2022-03-13 10:08:30] [0003.875] I> added [base:0x276600000, size:0x200000] to /memory
+[2022-03-13 10:08:30] [0003.881] I> added [base:0x277000000, size:0x200000] to /memory
+[2022-03-13 10:08:30] [0003.887] I> Updated memory info to DTB
+[2022-03-13 10:08:30] [0003.891] E> add_disp_param: failed to get display params for du=0
+[2022-03-13 10:08:30] [0003.899] W> "reset" doesn't exist, creating
+[2022-03-13 10:08:30] [0003.903] W> "pmc-reset-reason" doesn't exist, creating
+[2022-03-13 10:08:30] [0003.909] W> "pmic-reset-reason" doesn't exist, creating
+[2022-03-13 10:08:30] [0003.915] I> Adding ecid(00000001646db7851000000013038200) to DT
+[2022-03-13 10:08:30] [0003.921] I> disabled_core_mask: 0xffffff0c
+[2022-03-13 10:08:30] [0003.934] I> Add serial number:1422420022173 as DT property
+[2022-03-13 10:08:30] [0003.943] I> Plugin-manager override starting
+[2022-03-13 10:08:30] [0003.948] I> node /plugin-manager/fragement@0 matches
+[2022-03-13 10:08:30] [0003.959] I> node /plugin-manager/fragement@4 matches
+[2022-03-13 10:08:30] [0003.972] I> node /plugin-manager/fragment-sdwake-p3310-1000-300 matches
+[2022-03-13 10:08:30] [0003.992] I> node /plugin-manager/fragement-pmon-p3310-1000-300 matches
+[2022-03-13 10:08:30] [0004.001] I> node /plugin-manager/fragement-pmon-p3310-1000-800 matches
+[2022-03-13 10:08:30] [0004.010] I> node /plugin-manager/fragment-devslp@0 matches
+[2022-03-13 10:08:30] [0004.022] I> node /plugin-manager/fragment-500-pcie-config matches
+[2022-03-13 10:08:30] [0004.037] I> node /plugin-manager/fragment-500-xusb-config matches
+[2022-03-13 10:08:30] [0004.060] I> node /plugin-manager/fragment-p3310-c00-comm matches
+[2022-03-13 10:08:30] [0004.074] I> node /plugin-manager/fragment-p3310-c00-pmic matches
+[2022-03-13 10:08:30] [0004.085] I> node /plugin-manager/fragment-p3310-c01 matches
+[2022-03-13 10:08:30] [0004.098] I> node /plugin-manager/fragment-p3310-c03 matches
+[2022-03-13 10:08:30] [0004.140] I> node /plugin-manager/fragment-e3326@0 matches
+[2022-03-13 10:08:31] [0004.222] I> node /plugin-manager/fragment-p3310-c00-camera matches
+[2022-03-13 10:08:31] [0004.249] I> Disable plugin-manager status in FDT
+[2022-03-13 10:08:31] [0004.254] I> Plugin-manager override finished successfully
+[2022-03-13 10:08:31] [0004.259] I> tegrabl_load_kernel_and_dtb: Done
+[2022-03-13 10:08:31] [0004.263] E> tegrabl_display_clear: display is not initialized
+[2022-03-13 10:08:31] [0004.269] W> Boot logo display failed...
+[2022-03-13 10:08:31] [0004.273] I> Kernel EP: 0x80600000, DTB: 0x80000000
+[2022-03-13 10:08:31] 
+[2022-03-13 10:08:31] 
+[2022-03-13 10:08:31] U-Boot 2020.04-g46e4604c78 (Jul 26 2021 - 12:10:58 -0700)
+[2022-03-13 10:08:31] 
+[2022-03-13 10:08:31] SoC: tegra186
+[2022-03-13 10:08:31] Model: NVIDIA P2771-0000-500
+[2022-03-13 10:08:31] Board: NVIDIA P2771-0000
+[2022-03-13 10:08:31] DRAM:  7.8 GiB
+[2022-03-13 10:08:31] MMC:   sdhci@3400000: 1, sdhci@3460000: 0
+[2022-03-13 10:08:31] Loading Environment from MMC... *** Warning - bad CRC, using default environment
+[2022-03-13 10:08:31] 
+[2022-03-13 10:08:31] In:    serial
+[2022-03-13 10:08:31] Out:   serial
+[2022-03-13 10:08:31] Err:   serial
+[2022-03-13 10:08:31] Net:   
+[2022-03-13 10:08:31] Warning: ethernet@2490000 using MAC address from ROM
+[2022-03-13 10:08:31] eth0: ethernet@2490000
+[2022-03-13 10:08:31] Hit any key to stop autoboot:  2  1  0 
+[2022-03-13 10:08:33] MMC: no card present
+[2022-03-13 10:08:33] switch to partitions #0, OK
+[2022-03-13 10:08:33] mmc0(part 0) is current device
+[2022-03-13 10:08:33] Scanning mmc 0:1...
+[2022-03-13 10:08:33] Found /boot/extlinux/extlinux.conf
+[2022-03-13 10:08:33] Retrieving file: /boot/extlinux/extlinux.conf
+[2022-03-13 10:08:33] 858 bytes read in 22 ms (38.1 KiB/s)
+[2022-03-13 10:08:33] 1:	primary kernel
+[2022-03-13 10:08:33] Retrieving file: /boot/initrd
+[2022-03-13 10:08:34] 7238344 bytes read in 201 ms (34.3 MiB/s)
+[2022-03-13 10:08:34] Retrieving file: /boot/Image
+[2022-03-13 10:08:34] 34484232 bytes read in 832 ms (39.5 MiB/s)
+[2022-03-13 10:08:34] append: console=ttyS0,115200 androidboot.presilicon=true firmware_class.path=/etc/firmware root=/dev/mmcblk0p1 rw rootwait rootfstype=ext4 console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0 isolcpus=1-2  video=tegrafb earlycon=uart8250,mmio32,0x3100000 nvdumper_reserved=0x2772e0000 gpt rootfs.slot_suffix= usbcore.old_scheme_first=1 tegraid=18.1.2.0.0 maxcpus=6 no_console_suspend boot.slot_suffix= boot.ratchetvalues=0.2031647.1 vpr_resize bl_prof_dataptr=0x10000@0x275840000 sdhci_tegra.en_boot_part_access=1 quiet root=/dev/mmcblk0p1 rw rootwait rootfstype=ext4 console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0 isolcpus=1-2 
+[2022-03-13 10:08:35] ## Flattened Device Tree blob at 80000000
+[2022-03-13 10:08:35]    Booting using the fdt blob at 0x80000000
+[2022-03-13 10:08:35] ERROR: reserving fdt memory region failed (addr=0 size=0)
+[2022-03-13 10:08:35] ERROR: reserving fdt memory region failed (addr=0 size=0)
+[2022-03-13 10:08:35] ERROR: reserving fdt memory region failed (addr=0 size=0)
+[2022-03-13 10:08:35]    Using Device Tree in place at 0000000080000000, end 0000000080060aa3
+[2022-03-13 10:08:35] copying carveout for /host1x@13e00000/display-hub@15200000/display@15200000...
+[2022-03-13 10:08:35] copying carveout for /host1x@13e00000/display-hub@15200000/display@15210000...
+[2022-03-13 10:08:35] copying carveout for /host1x@13e00000/display-hub@15200000/display@15220000...
+[2022-03-13 10:08:35] 
+[2022-03-13 10:08:35] Starting kernel ...
+[2022-03-13 10:08:35] 
+[2022-03-13 10:08:35] [    0.000000] Booting Linux on physical CPU 0x100
+[2022-03-13 10:08:35] [    0.000000] Linux version 4.9.253-tegra (buildbrain@mobile-u64-5497-d3000) (gcc version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) ) #1 SMP PREEMPT Mon Jul 26 12:19:28 PDT 2021
+[2022-03-13 10:08:35] [    0.000000] Boot CPU: AArch64 Processor [411fd073]
+[2022-03-13 10:08:35] [    0.000000] OF: fdt:memory scan node memory@80000000, reg size 80,
+[2022-03-13 10:08:35] [    0.000000] OF: fdt: - 80000000 ,  70000000
+[2022-03-13 10:08:35] [    0.000000] OF: fdt: - f0200000 ,  185600000
+[2022-03-13 10:08:35] [    0.000000] OF: fdt: - 275e00000 ,  200000
+[2022-03-13 10:08:35] [    0.000000] OF: fdt: - 276600000 ,  200000
+[2022-03-13 10:08:35] [    0.000000] OF: fdt: - 277000000 ,  200000
+[2022-03-13 10:08:35] [    0.000000] earlycon: uart8250 at MMIO32 0x0000000003100000 (options '')
+[2022-03-13 10:08:35] [    0.000000] bootconsole [uart8250] enabled
+[2022-03-13 10:08:37] [    2.035727] cgroup: cgroup2: unknown option "nsdelegate"
+[2022-03-13 10:08:38] [    3.313524] using random self ethernet address
+[2022-03-13 10:08:38] [    3.319349] using random host ethernet address
+[2022-03-13 10:08:38] [    3.386503] random: crng init done
+[2022-03-13 10:08:38] [    3.389909] random: 7 urandom warning(s) missed due to ratelimiting
+[2022-03-13 10:08:39] [    3.790332] using random self ethernet address
+[2022-03-13 10:08:39] [    3.823444] using random host ethernet address
+[2022-03-13 10:08:39] [    4.041225] CPU1: shutdown
+[2022-03-13 10:08:39] [    4.096178] CPU2: shutdown
+[2022-03-13 10:08:40] [    4.971711] Bridge firewalling registered
+[2022-03-13 10:08:43] 
+[2022-03-13 10:08:43] Ubuntu 18.04.5 LTS JTX2-A ttyS0
+[2022-03-13 10:08:43] 
+[2022-03-13 10:08:43] JTX2-A login: [   19.368654] nvgpu: 17000000.gp10b                     gk20a_pmu_isr:724  [ERR]  pmu exterr intr not implemented. Clearing interrupt.
+[2022-03-13 10:08:54] [   19.380603] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:560  [ERR]  <<< FALCON id-0 DEBUG INFORMATION - START >>>
+[2022-03-13 10:08:54] [   19.391912] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:504  [ERR]  FALCON IMEM BLK MAPPING (PA->VA) (96 TOTAL):
+[2022-03-13 10:08:54] [   19.403149] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:518  [ERR]   0x00: 0x01000000 0x01000100 0x01000200 0x01000300
+[2022-03-13 10:08:54] [   19.414884] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:520  [ERR]   0x04: 0x01000400 0x01000500 0x01000600 0x01000700
+[2022-03-13 10:08:54] [   19.426638] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:518  [ERR]   0x08: 0x01000800 0x01000900 0x01000a00 0x01000b00
+[2022-03-13 10:08:54] [   19.438367] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:520  [ERR]   0x0c: 0x01000c00 0x01000d00 0x01000e00 0x01000f00
+[2022-03-13 10:08:54] [   19.450117] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:518  [ERR]   0x10: 0x01001000 0x01001100 0x01001200 0x01001300
+[2022-03-13 10:08:54] [   19.461844] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:520  [ERR]   0x14: 0x01001400 0x01001500 0x01001600 0x01001700
+[2022-03-13 10:08:55] [   19.473601] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:518  [ERR]   0x18: 0x01006b00 0x01002800 0x01002900 0x01002a00
+[2022-03-13 10:08:55] [   19.485330] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:520  [ERR]   0x1c: 0x01002b00 0x01002e00 0x01002f00 0x01003000
+[2022-03-13 10:08:55] [   19.497085] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:518  [ERR]   0x20: 0x01003100 0x01003200 0x01002c00 0x01002d00
+[2022-03-13 10:08:55] [   19.508814] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:520  [ERR]   0x24: 0x01002400 0x01004d00 0x01004e00 0x01004f00
+[2022-03-13 10:08:55] [   19.520567] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:518  [ERR]   0x28: 0x01005000 0x01005100 0x01005200 0x01005300
+[2022-03-13 10:08:55] [   19.532295] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:520  [ERR]   0x2c: 0x01005400 0x01002500 0x01002600 0x01002700
+[2022-03-13 10:08:55] [   19.544047] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:518  [ERR]   0x30: 0x01003300 0x01003400 0x01003500 0x01003600
+[2022-03-13 10:08:55] [   19.555773] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:520  [ERR]   0x34: 0x01003700 0x01003800 0x01003900 0x01003a00
+[2022-03-13 10:08:55] [   19.567527] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:518  [ERR]   0x38: 0x01003b00 0x01003c00 0x01003d00 0x01003e00
+[2022-03-13 10:08:55] [   19.579255] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:520  [ERR]   0x3c: 0x01003f00 0x01004000 0x01004100 0x01004200
+[2022-03-13 10:08:55] [   19.591007] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:518  [ERR]   0x40: 0x01004300 0x01004400 0x01004500 0x01004600
+[2022-03-13 10:08:55] [   19.602735] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:520  [ERR]   0x44: 0x01004700 0x01004800 0x01004900 0x01004a00
+[2022-03-13 10:08:55] [   19.614501] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:518  [ERR]   0x48: 0x01004b00 0x01004c00 0x01005500 0x01005600
+[2022-03-13 10:08:55] [   19.626230] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:520  [ERR]   0x4c: 0x01005700 0x01005800 0x01005900 0x01005a00
+[2022-03-13 10:08:55] [   19.637987] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:518  [ERR]   0x50: 0x01005b00 0x01005c00 0x01005d00 0x01005e00
+[2022-03-13 10:08:55] [   19.649715] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:520  [ERR]   0x54: 0x01005f00 0x01006000 0x01006100 0x01006200
+[2022-03-13 10:08:55] [   19.661467] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:518  [ERR]   0x58: 0x01006300 0x01006400 0x01006500 0x01006600
+[2022-03-13 10:08:55] [   19.673196] nvgpu: 17000000.gp10b           gk20a_falcon_dump_imblk:520  [ERR]   0x5c: 0x01006700 0x01006800 0x01006900 0x01006a00
+[2022-03-13 10:08:55] [   19.684931] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:541  [ERR]  PC TRACE (TOTAL 31 ENTRIES. entry 0 is the most recent branch):
+[2022-03-13 10:08:55] [   19.697788] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(0)  :  0x0000053f
+[2022-03-13 10:08:55] [   19.707965] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(1)  :  0x000001b0
+[2022-03-13 10:08:55] [   19.718135] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(2)  :  0x000001c3
+[2022-03-13 10:08:55] [   19.728310] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(3)  :  0x000011f9
+[2022-03-13 10:08:55] [   19.738481] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(4)  :  0x000010b0
+[2022-03-13 10:08:55] [   19.748657] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(5)  :  0x000010fa
+[2022-03-13 10:08:55] [   19.758829] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(6)  :  0x00000a2f
+[2022-03-13 10:08:55] [   19.769003] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(7)  :  0x00001774
+[2022-03-13 10:08:55] [   19.779174] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(8)  :  0x0000122b
+[2022-03-13 10:08:55] [   19.789352] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(9)  :  0x000016be
+[2022-03-13 10:08:55] [   19.799521] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(10)  :  0x00001227
+[2022-03-13 10:08:55] [   19.809781] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(11)  :  0x00001770
+[2022-03-13 10:08:55] [   19.820037] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(12)  :  0x00000a2b
+[2022-03-13 10:08:55] [   19.830301] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(13)  :  0x0000034b
+[2022-03-13 10:08:55] [   19.840563] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(14)  :  0x00000341
+[2022-03-13 10:08:55] [   19.850823] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(15)  :  0x00000314
+[2022-03-13 10:08:55] [   19.861082] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(16)  :  0x00000e8f
+[2022-03-13 10:08:55] [   19.871354] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(17)  :  0x00000e5b
+[2022-03-13 10:08:55] [   19.881614] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(18)  :  0x0000001e
+[2022-03-13 10:08:55] [   19.891880] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(19)  :  0x00000011
+[2022-03-13 10:08:55] [   19.902139] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(20)  :  0x00000e42
+[2022-03-13 10:08:55] [   19.912399] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(21)  :  0x0000030d
+[2022-03-13 10:08:55] [   19.922667] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(22)  :  0x0000023f
+[2022-03-13 10:08:55] [   19.932930] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(23)  :  0x00000a1f
+[2022-03-13 10:08:55] [   19.943191] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(24)  :  0x000001c3
+[2022-03-13 10:08:55] [   19.953454] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(25)  :  0x00000a1f
+[2022-03-13 10:08:55] [   19.963713] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(26)  :  0x000001b0
+[2022-03-13 10:08:55] [   19.973974] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(27)  :  0x000001b0
+[2022-03-13 10:08:55] [   19.984232] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(28)  :  0x00000a1b
+[2022-03-13 10:08:55] [   19.994491] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(29)  :  0x00001765
+[2022-03-13 10:08:55] [   20.004752] nvgpu: 17000000.gp10b        gk20a_falcon_dump_pc_trace:549  [ERR]  FALCON_TRACEPC(30)  :  0x00001225
+[2022-03-13 10:08:55] [   20.015009] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:567  [ERR]  FALCON ICD REGISTERS DUMP
+[2022-03-13 10:08:55] [   20.024571] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:575  [ERR]  FALCON_REG_PC : 0x11f9
+[2022-03-13 10:08:55] [   20.033877] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:582  [ERR]  FALCON_REG_SP : 0x3fc4
+[2022-03-13 10:08:55] [   20.043183] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:575  [ERR]  FALCON_REG_PC : 0x11f9
+[2022-03-13 10:08:55] [   20.052487] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:582  [ERR]  FALCON_REG_SP : 0xe44
+[2022-03-13 10:08:55] [   20.061706] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:575  [ERR]  FALCON_REG_PC : 0x11f9
+[2022-03-13 10:08:55] [   20.071013] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:582  [ERR]  FALCON_REG_SP : 0x3fc4
+[2022-03-13 10:08:55] [   20.080315] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:575  [ERR]  FALCON_REG_PC : 0x11f9
+[2022-03-13 10:08:55] [   20.089621] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:582  [ERR]  FALCON_REG_SP : 0x3fc4
+[2022-03-13 10:08:55] [   20.098961] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:589  [ERR]  FALCON_REG_IMB : 0x277e0c1
+[2022-03-13 10:08:55] [   20.108648] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:595  [ERR]  FALCON_REG_DMB : 0x277e12d
+[2022-03-13 10:08:55] [   20.118324] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:601  [ERR]  FALCON_REG_CSW : 0x330801
+[2022-03-13 10:08:55] [   20.127946] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:607  [ERR]  FALCON_REG_CTX : 0x0
+[2022-03-13 10:08:55] [   20.137099] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:613  [ERR]  FALCON_REG_EXCI : 0x688
+[2022-03-13 10:08:55] [   20.146511] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:622  [ERR]  FALCON_REG_RSTAT[0] : 0xa5a5a5a5
+[2022-03-13 10:08:55] [   20.156691] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:622  [ERR]  FALCON_REG_RSTAT[1] : 0xa5a5a5a5
+[2022-03-13 10:08:55] [   20.166864] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:622  [ERR]  FALCON_REG_RSTAT[2] : 0xa5a5a5a5
+[2022-03-13 10:08:55] [   20.177041] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:622  [ERR]  FALCON_REG_RSTAT[3] : 0xa5a5a5a5
+[2022-03-13 10:08:55] [   20.187223] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:622  [ERR]  FALCON_REG_RSTAT[4] : 0xa5a5a5a5
+[2022-03-13 10:08:55] [   20.197414] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:622  [ERR]  FALCON_REG_RSTAT[5] : 0xa5a5a5a5
+[2022-03-13 10:08:55] [   20.207589] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:625  [ERR]   FALCON REGISTERS DUMP
+[2022-03-13 10:08:55] [   20.216908] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:627  [ERR]  falcon_falcon_os_r : 0
+[2022-03-13 10:08:55] [   20.226221] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:629  [ERR]  falcon_falcon_cpuctl_r : 0x60
+[2022-03-13 10:08:55] [   20.236135] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:631  [ERR]  falcon_falcon_idlestate_r : 0x0
+[2022-03-13 10:08:55] [   20.246221] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:633  [ERR]  falcon_falcon_mailbox0_r : 0x0
+[2022-03-13 10:08:55] [   20.256284] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:635  [ERR]  falcon_falcon_mailbox1_r : 0x0
+[2022-03-13 10:08:55] [   20.266304] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:637  [ERR]  falcon_falcon_irqstat_r : 0x20
+[2022-03-13 10:08:55] [   20.276375] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:639  [ERR]  falcon_falcon_irqmode_r : 0xfc24
+[2022-03-13 10:08:55] [   20.286678] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:641  [ERR]  falcon_falcon_irqmask_r : 0x7871
+[2022-03-13 10:08:55] [   20.296871] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:643  [ERR]  falcon_falcon_irqdest_r : 0x10372
+[2022-03-13 10:08:55] [   20.307138] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:645  [ERR]  falcon_falcon_debug1_r : 0x10000
+[2022-03-13 10:08:55] [   20.317343] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:647  [ERR]  falcon_falcon_debuginfo_r : 0x0
+[2022-03-13 10:08:55] [   20.327539] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:649  [ERR]  falcon_falcon_bootvec_r : 0x3200
+[2022-03-13 10:08:55] [   20.337849] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:651  [ERR]  falcon_falcon_hwcfg_r : 0x400cc060
+[2022-03-13 10:08:55] [   20.348281] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:653  [ERR]  falcon_falcon_engctl_r : 0x0
+[2022-03-13 10:08:55] [   20.358169] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:655  [ERR]  falcon_falcon_curctx_r : 0x71fffff9
+[2022-03-13 10:08:55] [   20.368679] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:657  [ERR]  falcon_falcon_nxtctx_r : 0x71fffff9
+[2022-03-13 10:08:55] [   20.379186] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:659  [ERR]  falcon_falcon_exterrstat_r : 0x85002f43
+[2022-03-13 10:08:55] [   20.390031] nvgpu: 17000000.gp10b           gk20a_falcon_dump_stats:661  [ERR]  falcon_falcon_exterraddr_r : 0x18030200
+[2022-03-13 10:08:55] [   20.400853] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:630  [ERR]  pwr_pmu_mailbox_r(0) : 0x0
+[2022-03-13 10:08:55] [   20.410518] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:630  [ERR]  pwr_pmu_mailbox_r(1) : 0x0
+[2022-03-13 10:08:55] [   20.420179] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:630  [ERR]  pwr_pmu_mailbox_r(2) : 0x0
+[2022-03-13 10:08:55] [   20.429834] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:630  [ERR]  pwr_pmu_mailbox_r(3) : 0x0
+[2022-03-13 10:08:55] [   20.439484] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:630  [ERR]  pwr_pmu_mailbox_r(4) : 0x0
+[2022-03-13 10:08:55] [   20.449133] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:630  [ERR]  pwr_pmu_mailbox_r(5) : 0x0
+[2022-03-13 10:08:55] [   20.458781] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:630  [ERR]  pwr_pmu_mailbox_r(6) : 0x0
+[2022-03-13 10:08:55] [   20.468428] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:630  [ERR]  pwr_pmu_mailbox_r(7) : 0x0
+[2022-03-13 10:08:56] [   20.478075] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:630  [ERR]  pwr_pmu_mailbox_r(8) : 0x0
+[2022-03-13 10:08:56] [   20.487724] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:630  [ERR]  pwr_pmu_mailbox_r(9) : 0x0
+[2022-03-13 10:08:56] [   20.497372] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:630  [ERR]  pwr_pmu_mailbox_r(10) : 0x0
+[2022-03-13 10:08:56] [   20.507105] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:630  [ERR]  pwr_pmu_mailbox_r(11) : 0x0
+[2022-03-13 10:08:56] [   20.516839] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:635  [ERR]  pwr_pmu_debug_r(0) : 0x0
+[2022-03-13 10:08:56] [   20.526312] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:635  [ERR]  pwr_pmu_debug_r(1) : 0x0
+[2022-03-13 10:08:56] [   20.535782] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:635  [ERR]  pwr_pmu_debug_r(2) : 0x20
+[2022-03-13 10:08:56] [   20.545342] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:635  [ERR]  pwr_pmu_debug_r(3) : 0x0
+[2022-03-13 10:08:56] [   20.554812] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:639  [ERR]  pwr_pmu_bar0_error_status_r : 0x0
+[2022-03-13 10:08:56] [   20.565066] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:652  [ERR]  pwr_pmu_bar0_fecs_error_r : 0xbadf1100
+[2022-03-13 10:08:56] [   20.575751] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:655  [ERR]  pwr_falcon_exterrstat_r : 0x85002f43
+[2022-03-13 10:08:56] [   20.586264] nvgpu: 17000000.gp10b       gk20a_pmu_dump_falcon_stats:659  [ERR]  pwr_falcon_exterraddr_r : 0x18030200
+[2022-03-13 10:08:56] [   20.596810] nvgpu: 17000000.gp10b                   print_pmu_trace:88   [ERR]  dump PMU trace buffer
+[2022-03-13 10:08:56] [   20.606026] nvgpu: 17000000.gp10b       nvgpu_pmu_dump_falcon_stats:51   [ERR]  pmu state: 7
+[2022-03-13 10:08:56] [   20.614456] nvgpu: 17000000.gp10b       nvgpu_pmu_dump_falcon_stats:52   [ERR]  elpg state: 1
+[2022-03-13 10:08:56] [   20.622980] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:129  [ERR]  gr_fecs_os_r : 0
+[2022-03-13 10:08:56] [   20.631758] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:131  [ERR]  gr_fecs_cpuctl_r : 0x40
+[2022-03-13 10:08:56] [   20.641143] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:133  [ERR]  gr_fecs_idlestate_r : 0x1
+[2022-03-13 10:08:56] [   20.650719] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:135  [ERR]  gr_fecs_mailbox0_r : 0x186
+[2022-03-13 10:08:56] [   20.660387] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:137  [ERR]  gr_fecs_mailbox1_r : 0x0
+[2022-03-13 10:08:56] [   20.669870] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:139  [ERR]  gr_fecs_irqstat_r : 0x0
+[2022-03-13 10:08:56] [   20.679269] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:141  [ERR]  gr_fecs_irqmode_r : 0x4
+[2022-03-13 10:08:56] [   20.688658] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:143  [ERR]  gr_fecs_irqmask_r : 0x8704
+[2022-03-13 10:08:56] [   20.698309] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:145  [ERR]  gr_fecs_irqdest_r : 0x0
+[2022-03-13 10:08:56] [   20.707696] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:147  [ERR]  gr_fecs_debug1_r : 0x40
+[2022-03-13 10:08:56] [   20.717094] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:149  [ERR]  gr_fecs_debuginfo_r : 0x0
+[2022-03-13 10:08:56] [   20.726656] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:151  [ERR]  gr_fecs_ctxsw_status_1_r : 0x140
+[2022-03-13 10:08:56] [   20.736823] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(0) : 0x4
+[2022-03-13 10:08:56] [   20.746991] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(1) : 0x0
+[2022-03-13 10:08:56] [   20.757158] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(2) : 0x50009
+[2022-03-13 10:08:56] [   20.767674] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(3) : 0x20
+[2022-03-13 10:08:56] [   20.777929] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(4) : 0x1ffda0
+[2022-03-13 10:08:56] [   20.788531] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(5) : 0x0
+[2022-03-13 10:08:56] [   20.798696] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(6) : 0x0
+[2022-03-13 10:08:56] [   20.808863] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(7) : 0x0
+[2022-03-13 10:08:56] [   20.819031] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(8) : 0x0
+[2022-03-13 10:08:56] [   20.829199] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(9) : 0x0
+[2022-03-13 10:08:56] [   20.839365] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(10) : 0x0
+[2022-03-13 10:08:56] [   20.849620] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(11) : 0x0
+[2022-03-13 10:08:56] [   20.859873] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(12) : 0x0
+[2022-03-13 10:08:56] [   20.870127] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(13) : 0x0
+[2022-03-13 10:08:56] [   20.880380] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(14) : 0x0
+[2022-03-13 10:08:56] [   20.890640] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:155  [ERR]  gr_fecs_ctxsw_mailbox_r(15) : 0x0
+[2022-03-13 10:08:56] [   20.900894] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:159  [ERR]  gr_fecs_engctl_r : 0x0
+[2022-03-13 10:08:56] [   20.910196] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:161  [ERR]  gr_fecs_curctx_r : 0x0
+[2022-03-13 10:08:56] [   20.919497] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:163  [ERR]  gr_fecs_nxtctx_r : 0x0
+[2022-03-13 10:08:56] [   20.928798] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:169  [ERR]  FECS_FALCON_REG_IMB : 0xbadfbadf
+[2022-03-13 10:08:56] [   20.938971] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:175  [ERR]  FECS_FALCON_REG_DMB : 0xbadfbadf
+[2022-03-13 10:08:56] [   20.949139] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:181  [ERR]  FECS_FALCON_REG_CSW : 0xbadfbadf
+[2022-03-13 10:08:56] [   20.959310] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:187  [ERR]  FECS_FALCON_REG_CTX : 0xbadfbadf
+[2022-03-13 10:08:56] [   20.969479] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:193  [ERR]  FECS_FALCON_REG_EXCI : 0xbadfbadf
+[2022-03-13 10:08:56] [   20.979739] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:200  [ERR]  FECS_FALCON_REG_PC : 0xbadfbadf
+[2022-03-13 10:08:56] [   20.989822] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:206  [ERR]  FECS_FALCON_REG_SP : 0xbadfbadf
+[2022-03-13 10:08:56] [   20.999907] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:200  [ERR]  FECS_FALCON_REG_PC : 0xbadfbadf
+[2022-03-13 10:08:56] [   21.009992] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:206  [ERR]  FECS_FALCON_REG_SP : 0xbadfbadf
+[2022-03-13 10:08:56] [   21.020078] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:200  [ERR]  FECS_FALCON_REG_PC : 0xbadfbadf
+[2022-03-13 10:08:56] [   21.030162] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:206  [ERR]  FECS_FALCON_REG_SP : 0xbadfbadf
+[2022-03-13 10:08:56] [   21.040251] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:200  [ERR]  FECS_FALCON_REG_PC : 0xbadfbadf
+[2022-03-13 10:08:56] [   21.050336] nvgpu: 17000000.gp10b      gk20a_fecs_dump_falcon_stats:206  [ERR]  FECS_FALCON_REG_SP : 0xbadfbadf
+[2022-03-13 10:09:17] [   41.686913] CPU5: SError detected, daif=1c0, spsr=0x800000c5, mpidr=80000103, esr=bf40c000
+[2022-03-13 10:09:17] [   41.686928] CPU0: SError detected, daif=1c0, spsr=0x800000c5, mpidr=80000100, esr=bf40c000
+[2022-03-13 10:09:17] [   41.686943] CPU4: SError detected, daif=1c0, spsr=0x800000c5, mpidr=80000102, esr=bf40c000
+[2022-03-13 10:09:17] [   41.686959] CPU3: SError detected, daif=1c0, spsr=0x800000c5, mpidr=80000101, esr=bf40c000
+[2022-03-13 10:09:17] [   41.686963] **************************************
+[2022-03-13 10:09:17] [   41.686980] A57 CPU Memory Error on CPU 0 (A57 Core 0)
+[2022-03-13 10:09:17] [   41.686986] 	ESR:               0xbf40c000
+[2022-03-13 10:09:17] [   41.686995] 	L2MERRSR: 0x3009108d8e0
+[2022-03-13 10:09:17] [   41.687002] 	L2 Data RAM: 0x11
+[2022-03-13 10:09:17] [   41.687008] 	CPU ID of Error:    1
+[2022-03-13 10:09:17] [   41.687013] 	WAY of Error:       0
+[2022-03-13 10:09:17] [   41.687019] 	Index of Error:     55520
+[2022-03-13 10:09:17] [   41.687024] 	Repeat Error Count: 0
+[2022-03-13 10:09:17] [   41.687028] 	Other Error Count:  3
+[2022-03-13 10:09:17] [   41.687032] **************************************
+[2022-03-13 10:09:17] [   41.693221] ROC:CCE Machine Check Error:
+[2022-03-13 10:09:17] [   41.693234] 	Address Type = Non-Secure DRAM
+[2022-03-13 10:09:17] [   41.693281] 	Address = 0x24e2bf688 -- System RAM + 0x15e0bf688
+[2022-03-13 10:09:17] [   41.695655] Bad mode in Error handler detected on CPU0, code 0xbf40c000 -- SError
+[2022-03-13 10:09:17] [   41.695663] Kernel panic - not syncing: bad mode
+[2022-03-13 10:09:17] [   41.695677] CPU: 0 PID: 0 Comm: swapper/0 Not tainted 4.9.253-tegra #1
+[2022-03-13 10:09:17] [   41.695683] Hardware name: quill (DT)
+[2022-03-13 10:09:17] [   41.695689] Call trace:
+[2022-03-13 10:09:17] [   41.695713] [<ffffff800808ba40>] dump_backtrace+0x0/0x198
+[2022-03-13 10:09:17] [   41.695729] [<ffffff800808c004>] show_stack+0x24/0x30
+[2022-03-13 10:09:17] [   41.695746] [<ffffff8008f6121c>] dump_stack+0xa0/0xc4
+[2022-03-13 10:09:17] [   41.695761] [<ffffff8008f5e2c0>] panic+0x12c/0x2a8
+[2022-03-13 10:09:17] [   41.695773] [<ffffff800808c894>] bad_mode+0x7c/0x80
+[2022-03-13 10:09:17] [   41.695786] [<ffffff800808ca5c>] handle_serr+0x124/0x128
+[2022-03-13 10:09:17] [   41.695795] [<ffffff8008082d98>] el1_serr+0xb0/0x144
+[2022-03-13 10:09:17] [   41.695810] [<ffffff8008ba09ac>] cpuidle_enter_state+0x84/0x380
+[2022-03-13 10:09:17] [   41.695822] [<ffffff8008ba0d1c>] cpuidle_enter+0x34/0x48
+[2022-03-13 10:09:17] [   41.695833] [<ffffff800811139c>] call_cpuidle+0x44/0x70
+[2022-03-13 10:09:17] [   41.695842] [<ffffff8008111718>] cpu_startup_entry+0x1b0/0x200
+[2022-03-13 10:09:17] [   41.695851] [<ffffff8008f63d9c>] rest_init+0x84/0x90
+[2022-03-13 10:09:17] [   41.695864] [<ffffff8009610b68>] start_kernel+0x374/0x38c
+[2022-03-13 10:09:17] [   41.695874] [<ffffff8009610204>] __primary_switched+0x80/0x94
+[2022-03-13 10:09:17] [   41.695887] SMP: stopping secondary CPUs
+[2022-03-13 10:09:17] [   41.701624] ROC:CCE Machine Check Error:
+[2022-03-13 10:09:17] [   41.701637] 	Address Type = Non-Secure DRAM
+[2022-03-13 10:09:17] [   41.701667] 	Address = 0x815bf788 -- System RAM + 0x15bf788
+[2022-03-13 10:09:17] [   41.710329] ROC:CCE Machine Check Error:
+[2022-03-13 10:09:17] [   41.710341] 	Address Type = Secure DRAM
+[2022-03-13 10:09:17] [   41.710373] 	Address = 0x27f63f682 (Unknown Device)
+[2022-03-13 10:09:17] [   41.712891] CPU3: SError detected, daif=1c0, spsr=0x800000c5, mpidr=80000101, esr=bf40c000
+[2022-03-13 10:09:17] [   41.719370] ROC:CCE Machine Check Error:
+[2022-03-13 10:09:17] [   41.719380] 	Address Type = Secure DRAM
+[2022-03-13 10:09:17] [   41.719396] 	Address = 0x27f63f680 (Unknown Device)
+[2022-03-13 10:09:17] [   41.931612] ROC:CCE Machine Check Error:
+[2022-03-13 10:09:17] [   41.935552] 	Address Type = Secure DRAM
+[2022-03-13 10:09:17] [   41.939417] 	Address = 0x27f63f682 (Unknown Device)
+[2022-03-13 10:09:17] [   41.946425] CPU5: SError detected, daif=1c0, spsr=0x800000c5, mpidr=80000103, esr=bf40c000
+[2022-03-13 10:09:17] [   41.960741] ROC:CCE Machine Check Error:
+[2022-03-13 10:09:17] [   41.964676] 	Address Type = Secure DRAM
+[2022-03-13 10:09:17] [   41.968529] 	Address = 0x27f63f680 (Unknown Device)
+[2022-03-13 10:09:17] [   41.975860] Kernel Offset: disabled
+[2022-03-13 10:09:17] [   41.979368] Memory Limit: none
+[2022-03-13 10:09:17] [   41.982432] trusty-log panic notifier - trusty version Built: 12:20:14 Jul 26 2021 [   42.023857] Rebooting in 5 seconds..
+[2022-03-13 10:09:22] [0000.163] I> Welcome to MB2(TBoot-BPMP)(version: 01.00.160913-t186-M-00.00-mobile-c368a720)
+[2022-03-13 10:09:22] [0000.172] I> Boot-device: eMMC
+[2022-03-13 10:09:22] [0000.179] I> sdmmc bdev is already initialized
+[2022-03-13 10:09:22] [0000.184] I> pmic: reset reason (nverc)	: 0x0
+[2022-03-13 10:09:22] [0000.217] I> Found 19 partitions in SDMMC_BOOT (instance 3)
+[2022-03-13 10:09:22] [0000.236] I> Found 33 partitions in SDMMC_USER (instance 3)
+[2022-03-13 10:09:22] [0000.242] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:22] [0000.248] W> Return default slot: _a
+[2022-03-13 10:09:22] [0000.251] I> A/B: bin_type (16) slot 0
+[2022-03-13 10:09:22] [0000.255] I> Loading partition bpmp-fw at 0xd7800000
+[2022-03-13 10:09:22] [0000.260] I> Reading two headers - addr:0xd7800000 blocks:1
+[2022-03-13 10:09:22] [0000.265] I> Addr: 0xd7800000, start-block: 58777608, num_blocks: 1
+[2022-03-13 10:09:22] [0000.290] I> Binary(16) of size 534416 is loaded @ 0xd7800000
+[2022-03-13 10:09:22] [0000.296] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:22] [0000.302] W> Return default slot: _a
+[2022-03-13 10:09:22] [0000.305] I> A/B: bin_type (17) slot 0
+[2022-03-13 10:09:22] [0000.309] I> Loading partition bpmp-fw-dtb at 0xd79f0000
+[2022-03-13 10:09:22] [0000.314] I> Reading two headers - addr:0xd79f0000 blocks:1
+[2022-03-13 10:09:22] [0000.319] I> Addr: 0xd79f0000, start-block: 58780024, num_blocks: 1
+[2022-03-13 10:09:22] [0000.345] I> Binary(17) of size 604720 is loaded @ 0xd796c400
+[2022-03-13 10:09:23] [0000.574] I> Loading SCE-FW ...
+[2022-03-13 10:09:23] [0000.577] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:23] [0000.582] W> Return default slot: _a
+[2022-03-13 10:09:23] [0000.586] I> A/B: bin_type (12) slot 0
+[2022-03-13 10:09:23] [0000.589] I> Loading partition sce-fw at 0xd7300000
+[2022-03-13 10:09:23] [0000.594] I> Reading two headers - addr:0xd7300000 blocks:1
+[2022-03-13 10:09:23] [0000.600] I> Addr: 0xd7300000, start-block: 58784120, num_blocks: 1
+[2022-03-13 10:09:23] [0000.619] I> Binary(12) of size 125632 is loaded @ 0xd7300000
+[2022-03-13 10:09:23] [0000.624] I> Init SCE
+[2022-03-13 10:09:23] [0000.627] I> Loading APE-FW ...
+[2022-03-13 10:09:23] [0000.630] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:23] [0000.635] W> Return default slot: _a
+[2022-03-13 10:09:23] [0000.639] I> A/B: bin_type (11) slot 0
+[2022-03-13 10:09:23] [0000.642] I> Loading partition adsp-fw at 0xd7400000
+[2022-03-13 10:09:23] [0000.647] I> Reading two headers - addr:0xd7400000 blocks:1
+[2022-03-13 10:09:23] [0000.653] I> Addr: 0xd7400000, start-block: 58761224, num_blocks: 1
+[2022-03-13 10:09:23] [0000.672] I> Binary(11) of size 77216 is loaded @ 0xd7400000
+[2022-03-13 10:09:23] [0000.678] I> Copy BTCM section
+[2022-03-13 10:09:23] [0000.680] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:23] [0000.686] W> Return default slot: _a
+[2022-03-13 10:09:23] [0000.690] I> A/B: bin_type (13) slot 0
+[2022-03-13 10:09:23] [0000.693] I> Loading partition cpu-bootloader at 0x96000000
+[2022-03-13 10:09:23] [0000.699] I> Reading two headers - addr:0x96000000 blocks:1
+[2022-03-13 10:09:23] [0000.704] I> Addr: 0x96000000, start-block: 58740744, num_blocks: 1
+[2022-03-13 10:09:23] [0000.725] I> Binary(13) of size 308800 is loaded @ 0x96000000
+[2022-03-13 10:09:23] [0000.731] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:23] [0000.736] W> Return default slot: _a
+[2022-03-13 10:09:23] [0000.740] I> A/B: bin_type (20) slot 0
+[2022-03-13 10:09:23] [0000.743] I> Loading partition bootloader-dtb at 0x85205400
+[2022-03-13 10:09:23] [0000.749] I> Reading two headers - addr:0x85205400 blocks:1
+[2022-03-13 10:09:23] [0000.754] I> Addr: 0x85205400, start-block: 58742792, num_blocks: 1
+[2022-03-13 10:09:23] [0000.776] I> Binary(20) of size 375568 is loaded @ 0x85205400
+[2022-03-13 10:09:23] [0000.782] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:23] [0000.788] W> Return default slot: _a
+[2022-03-13 10:09:23] [0000.791] I> A/B: bin_type (14) slot 0
+[2022-03-13 10:09:23] [0000.795] I> Loading partition secure-os at 0x85305600
+[2022-03-13 10:09:23] [0000.800] I> Reading two headers - addr:0x85305600 blocks:1
+[2022-03-13 10:09:23] [0000.805] I> Addr: 0x85305600, start-block: 58744840, num_blocks: 1
+[2022-03-13 10:09:23] [0000.827] I> Binary(14) of size 402864 is loaded @ 0x85305600
+[2022-03-13 10:09:23] [0000.835] I> TOS boot-params @ 0x85000000
+[2022-03-13 10:09:23] [0000.839] I> TOS params prepared
+[2022-03-13 10:09:23] [0000.842] I> Loading EKS ...
+[2022-03-13 10:09:23] [0000.845] I> A/B: bin_type (15) slot 0
+[2022-03-13 10:09:23] [0000.848] I> Loading partition eks at 0x85905800
+[2022-03-13 10:09:23] [0000.853] I> Reading two headers - addr:0x85905800 blocks:1
+[2022-03-13 10:09:23] [0000.858] I> Addr: 0x85905800, start-block: 58757128, num_blocks: 1
+[2022-03-13 10:09:23] [0000.877] I> Binary(15) of size 1040 is loaded @ 0x85905800
+[2022-03-13 10:09:23] [0000.882] I> EKB detected (length: 0x400) @ 0x85905800
+[2022-03-13 10:09:23] [0000.887] I> Copied encrypted keys
+[2022-03-13 10:09:23] [0000.891] I> boot profiler @ 0x275844000
+[2022-03-13 10:09:23] [0000.895] I> boot profiler for TOS @ 0x275844000
+[2022-03-13 10:09:23] [0000.900] I> Unhalting SCE
+[2022-03-13 10:09:23] [0000.902] I> Primary Memory Start:80000000 Size:70000000
+[2022-03-13 10:09:23] [0000.908] I> Extended Memory Start:f0110000 Size:1856f0000
+[2022-03-13 10:09:23] [0000.915] I> MB2(TBoot-BPMP) done
+[2022-03-13 10:09:23] 
+[2022-03-13 10:09:23] NOTICE:  BL31: v1.3(release):b5eeb33f7
+[2022-03-13 10:09:23] NOTICE:  BL31: Built : 12:15:17, Jul 26 2021
+[2022-03-13 10:09:23] ipc-unittest-main: 1519: Welcome to IPC unittest!!!
+[2022-03-13 10:09:23] ipc-unittest-main: 1531: waiting forever
+[2022-03-13 10:09:23] ipc-unittest-srv: 329: Init unittest services!!!
+[2022-03-13 10:09:23] hwkey-agent: 41: hwkey-agent is running!!
+[2022-03-13 10:09:23] hwkey-agent: 315: key_mgnt_processing .......
+[2022-03-13 10:09:23] hwkey-agent: 223: Setting EKB key 0 to slot 14
+[2022-03-13 10:09:23] hwkey-agent: 178: Init hweky-agent services!!
+[2022-03-13 10:09:23] luks-srv: 40: luks-srv is running!!
+[2022-03-13 10:09:23] luks-srv: 157: Init luks-srv IPC services!!
+[2022-03-13 10:09:23] platform_bootstrap_epilog: trusty bootstrap complete
+[2022-03-13 10:09:23] [0001.287] I> Welcome to Cboot
+[2022-03-13 10:09:23] [0001.289] I> Cboot Version: t186-00029e71
+[2022-03-13 10:09:23] [0001.293] I> CPU-BL Params @ 0x275800000
+[2022-03-13 10:09:23] [0001.297] I>  0) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:23] [0001.301] I>  1) Base:0x277f00000 Size:0x00100000
+[2022-03-13 10:09:23] [0001.306] I>  2) Base:0x277e00000 Size:0x00100000
+[2022-03-13 10:09:23] [0001.311] I>  3) Base:0x277d00000 Size:0x00100000
+[2022-03-13 10:09:23] [0001.315] I>  4) Base:0x277c00000 Size:0x00100000
+[2022-03-13 10:09:23] [0001.320] I>  5) Base:0x277b00000 Size:0x00100000
+[2022-03-13 10:09:23] [0001.324] I>  6) Base:0x277800000 Size:0x00200000
+[2022-03-13 10:09:23] [0001.329] I>  7) Base:0x277400000 Size:0x00400000
+[2022-03-13 10:09:23] [0001.333] I>  8) Base:0x277a00000 Size:0x00100000
+[2022-03-13 10:09:23] [0001.338] I>  9) Base:0x277300000 Size:0x00100000
+[2022-03-13 10:09:23] [0001.342] I> 10) Base:0x276800000 Size:0x00800000
+[2022-03-13 10:09:23] [0001.347] I> 11) Base:0x30000000 Size:0x00040000
+[2022-03-13 10:09:23] [0001.351] I> 12) Base:0xf0000000 Size:0x00100000
+[2022-03-13 10:09:23] [0001.356] I> 13) Base:0x30040000 Size:0x00001000
+[2022-03-13 10:09:23] [0001.360] I> 14) Base:0x30048000 Size:0x00001000
+[2022-03-13 10:09:23] [0001.364] I> 15) Base:0x30049000 Size:0x00001000
+[2022-03-13 10:09:23] [0001.369] I> 16) Base:0x3004a000 Size:0x00001000
+[2022-03-13 10:09:23] [0001.373] I> 17) Base:0x3004b000 Size:0x00001000
+[2022-03-13 10:09:23] [0001.378] I> 18) Base:0x3004c000 Size:0x00001000
+[2022-03-13 10:09:23] [0001.382] I> 19) Base:0x3004d000 Size:0x00001000
+[2022-03-13 10:09:23] [0001.387] I> 20) Base:0x3004e000 Size:0x00001000
+[2022-03-13 10:09:23] [0001.391] I> 21) Base:0x3004f000 Size:0x00001000
+[2022-03-13 10:09:23] [0001.395] I> 22) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:23] [0001.400] I> 23) Base:0xf0100000 Size:0x00010000
+[2022-03-13 10:09:23] [0001.404] I> 24) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:23] [0001.409] I> 25) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:23] [0001.413] I> 26) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:23] [0001.418] I> 27) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:23] [0001.422] I> 28) Base:0x84400000 Size:0x00400000
+[2022-03-13 10:09:23] [0001.426] I> 29) Base:0x30000000 Size:0x00010000
+[2022-03-13 10:09:23] [0001.431] I> 30) Base:0x278000000 Size:0x08000000
+[2022-03-13 10:09:23] [0001.435] I> 31) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:24] [0001.440] I> 32) Base:0x276000000 Size:0x00600000
+[2022-03-13 10:09:24] [0001.444] I> 33) Base:0x80000000 Size:0x70000000
+[2022-03-13 10:09:24] [0001.449] I> 34) Base:0xf0110000 Size:0x1856f0000
+[2022-03-13 10:09:24] [0001.453] I> 35) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:24] [0001.458] I> 36) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:24] [0001.462] I> 37) Base:0x2772e0000 Size:0x00020000
+[2022-03-13 10:09:24] [0001.467] I> 38) Base:0x84000000 Size:0x00400000
+[2022-03-13 10:09:24] [0001.471] I> 39) Base:0x96000000 Size:0x02000000
+[2022-03-13 10:09:24] [0001.476] I> 40) Base:0x85000000 Size:0x01200000
+[2022-03-13 10:09:24] [0001.480] I> 41) Base:0x275800000 Size:0x00500000
+[2022-03-13 10:09:24] [0001.484] I> 42) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:24] [0001.489] I> 43) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:24] [0001.493] GIC-SPI Target CPU: 4
+[2022-03-13 10:09:24] [0001.497] Interrupts Init done
+[2022-03-13 10:09:24] [0001.500] calling constructors
+[2022-03-13 10:09:24] [0001.503] initializing heap
+[2022-03-13 10:09:24] [0001.506] initializing threads
+[2022-03-13 10:09:24] [0001.509] initializing timers
+[2022-03-13 10:09:24] [0001.512] creating bootstrap completion thread
+[2022-03-13 10:09:24] [0001.517] top of bootstrap2()
+[2022-03-13 10:09:24] [0001.520] CPU: ARM Cortex A57
+[2022-03-13 10:09:24] [0001.523] CPU: MIDR: 0x411FD073, MPIDR: 0x80000100
+[2022-03-13 10:09:24] [0001.528] initializing platform
+[2022-03-13 10:09:24] [0001.531] I> Bl_dtb @0x85205400
+[2022-03-13 10:09:24] [0001.534] I> gpio framework initialized
+[2022-03-13 10:09:24] [0001.541] I> tegrabl_gpio_driver_register: register 'nvidia,tegra186-gpio' driver
+[2022-03-13 10:09:24] [0001.551] I> tegrabl_gpio_driver_register: register 'nvidia,tegra186-gpio-aon' driver
+[2022-03-13 10:09:24] [0001.559] I> GPIO framework and drivers are initialized.
+[2022-03-13 10:09:24] [0001.564] I> Boot-device: eMMC
+[2022-03-13 10:09:24] [0001.571] I> sdmmc bdev is already initialized
+[2022-03-13 10:09:24] [0001.602] I> Found 19 partitions in SDMMC_BOOT (instance 3)
+[2022-03-13 10:09:24] [0001.619] I> Found 33 partitions in SDMMC_USER (instance 3)
+[2022-03-13 10:09:24] [0001.625] W> opt-in fuse is not set, skip fuse_burning
+[2022-03-13 10:09:24] [0001.630] I> Reserved memory at 0xfbe00000 for U-Boot relocation
+[2022-03-13 10:09:24] [0001.635] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:24] [0001.641] W> Return default slot: _a
+[2022-03-13 10:09:24] [0001.651] I> A/B: bin_type (21) slot 0
+[2022-03-13 10:09:24] [0001.654] I> Loading kernel-dtb from partition
+[2022-03-13 10:09:24] [0001.658] I> Loading partition kernel-dtb at 0x80000000 from device(0x1)
+[2022-03-13 10:09:24] [0001.676] I> Kernel_dtb @0x80000000
+[2022-03-13 10:09:24] [0001.679] I> tegrabl_tca9539_init: i2c bus: 0, slave addr: 0xee
+[2022-03-13 10:09:24] [0001.690] I> tegrabl_gpio_driver_register: register 'tca9539_gpio_driver' driver
+[2022-03-13 10:09:24] [0001.697] I> tegrabl_tca9539_init: i2c bus: 0, slave addr: 0xe8
+[2022-03-13 10:09:24] [0001.706] I> tegrabl_gpio_driver_register: register 'tca9539_gpio_driver' driver
+[2022-03-13 10:09:24] [0001.716] I> fixed regulator driver initialized
+[2022-03-13 10:09:24] [0001.749] I> register 'maxim' power off handle
+[2022-03-13 10:09:24] [0001.756] I> virtual i2c enabled
+[2022-03-13 10:09:24] [0001.759] I> registered 'maxim,max77620' pmic
+[2022-03-13 10:09:24] [0001.763] I> tegrabl_gpio_driver_register: register 'max77620-gpio' driver
+[2022-03-13 10:09:24] [0001.777] E> failed to read label property for node 324936: 13
+[2022-03-13 10:09:24] [0001.785] E> failed to read reg property for node 325032: 13
+[2022-03-13 10:09:24] [0001.794] E> failed to read reg property for node 325084: 13
+[2022-03-13 10:09:24] [0001.802] E> failed to read label property for node 325168: 13
+[2022-03-13 10:09:24] [0001.810] E> failed to read label property for node 325236: 13
+[2022-03-13 10:09:24] [0001.819] E> failed to read reg property for node 325304: 13
+[2022-03-13 10:09:24] [0001.827] E> failed to read reg property for node 325376: 13
+[2022-03-13 10:09:24] [0001.837] I> Find /i2c@c250000's alias i2c7
+[2022-03-13 10:09:24] [0001.841] I> Reading eeprom i2c=7 address=0x50
+[2022-03-13 10:09:24] [0001.871] I> Device at /i2c@c250000:0x50
+[2022-03-13 10:09:24] [0001.874] I> Reading eeprom i2c=7 address=0x57
+[2022-03-13 10:09:24] [0001.903] I> Device at /i2c@c250000:0x57
+[2022-03-13 10:09:24] [0001.907] I> Find /i2c@c240000's alias i2c1
+[2022-03-13 10:09:24] [0001.911] I> Reading eeprom i2c=1 address=0x51
+[2022-03-13 10:09:24] [0001.916] E> I2C: slave not found in slaves.
+[2022-03-13 10:09:24] [0001.921] E> I2C: Could not write 0 bytes to slave: 0x00a2 with repeat start true.
+[2022-03-13 10:09:24] [0001.928] E> I2C_DEV: Failed to send register address 0x00000000.
+[2022-03-13 10:09:24] [0001.934] E> I2C_DEV: Could not read 256 registers of size 1 from slave 0xa2 at 0x00000000 via instance 1.
+[2022-03-13 10:09:24] [0001.944] E> eeprom: Retry to read I2C slave device.
+[2022-03-13 10:09:24] [0001.949] E> I2C: slave not found in slaves.
+[2022-03-13 10:09:24] [0001.953] E> I2C: Could not write 0 bytes to slave: 0x00a2 with repeat start true.
+[2022-03-13 10:09:24] [0001.960] E> I2C_DEV: Failed to send register address 0x00000000.
+[2022-03-13 10:09:24] [0001.966] E> I2C_DEV: Could not read 256 registers of size 1 from slave 0xa2 at 0x00000000 via instance 1.
+[2022-03-13 10:09:24] [0001.976] E> eeprom: Failed to read I2C slave device
+[2022-03-13 10:09:24] [0001.981] I> Eeprom read failed 0x3526070d
+[2022-03-13 10:09:24] [0001.985] I> Find /i2c@3160000's alias i2c0
+[2022-03-13 10:09:24] [0001.989] I> Reading eeprom i2c=0 address=0x50
+[2022-03-13 10:09:24] [0001.993] E> I2C: slave not found in slaves.
+[2022-03-13 10:09:24] [0001.997] E> I2C: Could not write 0 bytes to slave: 0x00a0 with repeat start true.
+[2022-03-13 10:09:24] [0002.005] E> I2C_DEV: Failed to send register address 0x00000000.
+[2022-03-13 10:09:24] [0002.011] E> I2C_DEV: Could not read 256 registers of size 1 from slave 0xa0 at 0x00000000 via instance 0.
+[2022-03-13 10:09:24] [0002.021] E> eeprom: Failed to read I2C slave device
+[2022-03-13 10:09:24] [0002.025] I> Eeprom read failed 0x3526070d
+[2022-03-13 10:09:24] [0002.030] I> Find /i2c@3180000's alias i2c2
+[2022-03-13 10:09:24] [0002.034] I> Reading eeprom i2c=2 address=0x54
+[2022-03-13 10:09:24] [0002.038] I> Enabling gpio chip_id = 2, gpio pin = 9
+[2022-03-13 10:09:24] [0002.069] I> Disabling gpio chip_id = 2, gpio pin = 9
+[2022-03-13 10:09:24] [0002.074] I> Device at /i2c@3180000:0x54
+[2022-03-13 10:09:24] [0002.078] I> Reading eeprom i2c=2 address=0x57
+[2022-03-13 10:09:24] [0002.082] I> Enabling gpio chip_id = 2, gpio pin = 9
+[2022-03-13 10:09:24] [0002.088] E> I2C: slave not found in slaves.
+[2022-03-13 10:09:24] [0002.092] E> I2C: Could not write 0 bytes to slave: 0x00ae with repeat start true.
+[2022-03-13 10:09:24] [0002.100] E> I2C_DEV: Failed to send register address 0x00000000.
+[2022-03-13 10:09:24] [0002.106] E> I2C_DEV: Could not read 256 registers of size 1 from slave 0xae at 0x00000000 via instance 2.
+[2022-03-13 10:09:24] [0002.115] E> eeprom: Failed to read I2C slave device
+[2022-03-13 10:09:24] [0002.120] I> Disabling gpio chip_id = 2, gpio pin = 9
+[2022-03-13 10:09:24] [0002.125] I> Eeprom read failed 0x00000000
+[2022-03-13 10:09:24] [0002.129] I> create_pm_ids: id: 3310-1000-D00-L, len: 15
+[2022-03-13 10:09:24] [0002.134] I> config: mem-type:00,power-config:00,misc-config:00,modem-config:00,touch-config:00,display-config:00,, len: 93
+[2022-03-13 10:09:24] [0002.145] I> create_pm_ids: id: 2597-0000-900-E, len: 15
+[2022-03-13 10:09:24] [0002.150] I> config: mem-type:00,power-config:00,misc-config:00,modem-config:00,touch-config:00,display-config:00,, len: 93
+[2022-03-13 10:09:24] [0002.161] I> create_pm_ids: id: 3326-1000-000-M, len: 15
+[2022-03-13 10:09:24] [0002.166] I> config: mem-type:ff,power-config:ff,misc-config:ff,modem-config:ff,touch-config:ff,display-config:ff,, len: 93
+[2022-03-13 10:09:24] [0002.201] I> enabling 'vdd-hdmi' regulator
+[2022-03-13 10:09:24] [0002.217] I> regulator 'vdd-hdmi' already enabled
+[2022-03-13 10:09:24] [0002.221] E> tegrabl_display_init_regulator: hdmi cable is not connected
+[2022-03-13 10:09:24] [0002.228] E> tegrabl_display_get_pdata, failed to parse dtb settings
+[2022-03-13 10:09:24] [0002.237] E> cannot find any other nvdisp nodes
+[2022-03-13 10:09:24] [0002.241] E> no valid display unit config found in dtb
+[2022-03-13 10:09:24] [0002.247] W> display init failed
+[2022-03-13 10:09:24] [0002.250] initializing target
+[2022-03-13 10:09:24] [0002.253] calling apps_init()
+[2022-03-13 10:09:24] [0002.256] starting app kernel_boot_app
+[2022-03-13 10:09:24] [0002.278] I> found decompressor handler: lz4-legacy
+[2022-03-13 10:09:24] [0002.283] I> decompressing BMP blob ...
+[2022-03-13 10:09:24] [0002.295] I> Kernel type = Normal
+[2022-03-13 10:09:24] [0002.298] I> ########## Fixed storage boot ##########
+[2022-03-13 10:09:24] [0002.303] I> Loading kernel-bootctrl from partition
+[2022-03-13 10:09:24] [0002.308] I> Loading partition kernel-bootctrl at 0xa8000000 from device(0x1)
+[2022-03-13 10:09:24] [0002.322] W> tegrabl_get_kernel_bootctrl: magic number(0x00000000) is invalid
+[2022-03-13 10:09:24] [0002.329] W> tegrabl_get_kernel_bootctrl: use default dummy boot control data
+[2022-03-13 10:09:24] [0002.336] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:24] [0002.342] W> Return default slot: _a
+[2022-03-13 10:09:24] [0002.345] I> A/B: bin_type (24) slot 0
+[2022-03-13 10:09:24] [0002.361] I> Boot image size read from image header: 9913d
+[2022-03-13 10:09:24] [0002.366] I> Boot image load address: 0x80400000
+[2022-03-13 10:09:24] [0002.371] I> Loading kernel from partition
+[2022-03-13 10:09:24] [0002.375] I> Loading partition kernel at 0x80400000 from device(0x1)
+[2022-03-13 10:09:25] [0003.317] I> Validate kernel ...
+[2022-03-13 10:09:25] [0003.320] I> T18x: Authenticate kernel (bin_type 24), max size 0x4000000
+[2022-03-13 10:09:25] [0003.328] I> Decrypt the buffer ... [0003.331] W> tegrabl_decrypt_block: fuse (0x0) is not burnt to do encryption (0x4); skip decryption.
+[2022-03-13 10:09:25] [0003.340] I> done
+[2022-03-13 10:09:25] [0003.342] I> Checking boot.img header magic ... [0003.346] I> [OK]
+[2022-03-13 10:09:25] [0003.348] I> kernel-dtb is already loaded
+[2022-03-13 10:09:25] [0003.351] I> Validate kernel-dtb ...
+[2022-03-13 10:09:25] [0003.355] I> T18x: Authenticate kernel-dtb (bin_type 21), max size 0x100000
+[2022-03-13 10:09:25] [0003.362] I> Decrypt the buffer ... [0003.366] W> tegrabl_decrypt_block: fuse (0x0) is not burnt to do encryption (0x4); skip decryption.
+[2022-03-13 10:09:25] [0003.375] I> done
+[2022-03-13 10:09:25] [0003.376] I> Kernel hdr @0x80400000
+[2022-03-13 10:09:25] [0003.380] I> Kernel dtb @0x80000000
+[2022-03-13 10:09:25] [0003.383] I> decompressor handler not found
+[2022-03-13 10:09:25] [0003.387] I> Copying kernel image (627005 bytes) from 0x80400800 to 0x80600000 ... [0003.395] I> Done
+[2022-03-13 10:09:25] [0003.396] I> Move ramdisk (len: 0) from 0x8049a000 to 0x947d0000
+[2022-03-13 10:09:25] [0003.404] I> Updated bpmp info to DTB
+[2022-03-13 10:09:25] [0003.410] I> Ramdisk: Base: 0x947d0000; Size: 0x0
+[2022-03-13 10:09:25] [0003.414] I> Updated initrd info to DTB
+[2022-03-13 10:09:25] [0003.418] W> WARN: Fail to override "console=none" in commandline
+[2022-03-13 10:09:25] [0003.424] I> Active rootfs suffix: 
+[2022-03-13 10:09:25] [0003.427] E> tegrabl_linuxboot_add_disp_param, du 0 failed to get display params
+[2022-03-13 10:09:25] [0003.434] E> tegrabl_linuxboot_add_disp_param, du 0 failed to get display params
+[2022-03-13 10:09:26] [0003.442] E> tegrabl_linuxboot_add_disp_param, du 0 failed to get display params
+[2022-03-13 10:09:26] [0003.449] I> disabled_core_mask: 0xffffff0c
+[2022-03-13 10:09:26] [0003.453] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:26] [0003.459] W> Return default slot: _a
+[2022-03-13 10:09:26] [0003.462] I> Active slot suffix: 
+[2022-03-13 10:09:26] [0003.465] I> add_boot_slot_suffix: slot_suffix = 
+[2022-03-13 10:09:26] [0003.470] I> Linux Cmdline: console=ttyS0,115200 androidboot.presilicon=true firmware_class.path=/etc/firmware root=/dev/mmcblk0p1 rw rootwait rootfstype=ext4 console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0 isolcpus=1-2  video=tegrafb earlycon=uart8250,mmio32,0x3100000 nvdumper_reserved=0x2772e0000 gpt rootfs.slot_suffix= usbcore.old_scheme_first=1 tegraid=18.1.2.0.0 maxcpus=6 no_console_suspend boot.slot_suffix= boot.ratchetvalues=0.2031647.1 vpr_resize bl_prof_dataptr=0x10000@0x275840000 sdhci_tegra.en_boot_part_access=1 
+[2022-03-13 10:09:26] [0003.517] I> Updated bootarg info to DTB
+[2022-03-13 10:09:26] [0003.521] I> eeprom_get_mac_addr: MAC (type: 0): 48:b0:2d:0f:11:c5
+[2022-03-13 10:09:26] [0003.527] I> eeprom_get_mac_addr: MAC (type: 1): 48:b0:2d:0f:11:c6
+[2022-03-13 10:09:26] [0003.533] I> eeprom_get_mac_addr: MAC (type: 2): 48:b0:2d:0f:11:c7
+[2022-03-13 10:09:26] [0003.540] E> Found no plugin manager ids in source DT
+[2022-03-13 10:09:26] [0003.544] W> Add plugin manager ids from board info
+[2022-03-13 10:09:26] [0003.549] W> "plugin-manager" doesn't exist, creating
+[2022-03-13 10:09:26] [0003.554] W> "ids" doesn't exist, creating
+[2022-03-13 10:09:26] [0003.558] W> "connection" doesn't exist, creating
+[2022-03-13 10:09:26] [0003.563] W> "configs" doesn't exist, creating
+[2022-03-13 10:09:26] [0003.567] I> create_pm_ids: id: 3310-1000-D00-L, len: 15
+[2022-03-13 10:09:26] [0003.572] I> config: mem-type:00,power-config:00,misc-config:00,modem-config:00,touch-config:00,display-config:00,, len: 93
+[2022-03-13 10:09:26] [0003.583] I> create_pm_ids: id: 2597-0000-900-E, len: 15
+[2022-03-13 10:09:26] [0003.588] I> config: mem-type:00,power-config:00,misc-config:00,modem-config:00,touch-config:00,display-config:00,, len: 93
+[2022-03-13 10:09:26] [0003.599] I> create_pm_ids: id: 3326-1000-000-M, len: 15
+[2022-03-13 10:09:26] [0003.604] I> config: mem-type:ff,power-config:ff,misc-config:ff,modem-config:ff,touch-config:ff,display-config:ff,, len: 93
+[2022-03-13 10:09:26] [0003.615] I> Adding plugin-manager/ids/3310-1000-D00=/i2c@c250000:module@0x50
+[2022-03-13 10:09:26] [0003.622] W> "i2c@c250000" doesn't exist, creating
+[2022-03-13 10:09:26] [0003.627] W> "module@0x50" doesn't exist, creating
+[2022-03-13 10:09:26] [0003.632] I> Adding plugin-manager/ids/2597-0000-900=/i2c@c250000:module@0x57
+[2022-03-13 10:09:26] [0003.639] W> "module@0x57" doesn't exist, creating
+[2022-03-13 10:09:26] [0003.644] I> Adding plugin-manager/ids/3326-1000-000=/i2c@3180000:module@0x54
+[2022-03-13 10:09:26] [0003.651] W> "i2c@3180000" doesn't exist, creating
+[2022-03-13 10:09:26] [0003.656] W> "module@0x54" doesn't exist, creating
+[2022-03-13 10:09:26] [0003.663] I> Adding plugin-manager/ids/3310-1000-D00-L
+[2022-03-13 10:09:26] [0003.670] I> Adding plugin-manager/configs/3310-mem-type 00
+[2022-03-13 10:09:26] [0003.676] I> Adding plugin-manager/configs/3310-power-config 00
+[2022-03-13 10:09:26] [0003.682] I> Adding plugin-manager/configs/3310-misc-config 00
+[2022-03-13 10:09:26] [0003.688] I> Adding plugin-manager/configs/3310-modem-config 00
+[2022-03-13 10:09:26] [0003.694] I> Adding plugin-manager/configs/3310-touch-config 00
+[2022-03-13 10:09:26] [0003.700] I> Adding plugin-manager/configs/3310-display-config 00
+[2022-03-13 10:09:26] [0003.706] I> Adding plugin-manager/cvm
+[2022-03-13 10:09:26] [0003.710] W> "chip-id" doesn't exist, creating
+[2022-03-13 10:09:26] [0003.714] I> Adding plugin-manager/chip-id/A02P
+[2022-03-13 10:09:26] [0003.719] W> "odm-data" doesn't exist, creating
+[2022-03-13 10:09:26] [0003.723] I> Adding /chosen/plugin-manager/odm-data
+[2022-03-13 10:09:26] [0003.733] I> added [base:0x80000000, size:0x70000000] to /memory
+[2022-03-13 10:09:26] [0003.739] I> added [base:0xf0200000, size:0x185600000] to /memory
+[2022-03-13 10:09:26] [0003.745] I> added [base:0x275e00000, size:0x200000] to /memory
+[2022-03-13 10:09:26] [0003.750] I> added [base:0x276600000, size:0x200000] to /memory
+[2022-03-13 10:09:26] [0003.756] I> added [base:0x277000000, size:0x200000] to /memory
+[2022-03-13 10:09:26] [0003.762] I> Updated memory info to DTB
+[2022-03-13 10:09:26] [0003.766] E> add_disp_param: failed to get display params for du=0
+[2022-03-13 10:09:26] [0003.774] W> "reset" doesn't exist, creating
+[2022-03-13 10:09:26] [0003.778] W> "pmc-reset-reason" doesn't exist, creating
+[2022-03-13 10:09:26] [0003.784] W> "pmic-reset-reason" doesn't exist, creating
+[2022-03-13 10:09:26] [0003.790] I> Adding ecid(00000001646db7851000000013038200) to DT
+[2022-03-13 10:09:26] [0003.796] I> disabled_core_mask: 0xffffff0c
+[2022-03-13 10:09:26] [0003.809] I> Add serial number:1422420022173 as DT property
+[2022-03-13 10:09:26] [0003.818] I> Plugin-manager override starting
+[2022-03-13 10:09:26] [0003.824] I> node /plugin-manager/fragement@0 matches
+[2022-03-13 10:09:26] [0003.834] I> node /plugin-manager/fragement@4 matches
+[2022-03-13 10:09:26] [0003.847] I> node /plugin-manager/fragment-sdwake-p3310-1000-300 matches
+[2022-03-13 10:09:26] [0003.867] I> node /plugin-manager/fragement-pmon-p3310-1000-300 matches
+[2022-03-13 10:09:26] [0003.876] I> node /plugin-manager/fragement-pmon-p3310-1000-800 matches
+[2022-03-13 10:09:26] [0003.885] I> node /plugin-manager/fragment-devslp@0 matches
+[2022-03-13 10:09:26] [0003.898] I> node /plugin-manager/fragment-500-pcie-config matches
+[2022-03-13 10:09:26] [0003.913] I> node /plugin-manager/fragment-500-xusb-config matches
+[2022-03-13 10:09:26] [0003.936] I> node /plugin-manager/fragment-p3310-c00-comm matches
+[2022-03-13 10:09:26] [0003.949] I> node /plugin-manager/fragment-p3310-c00-pmic matches
+[2022-03-13 10:09:26] [0003.960] I> node /plugin-manager/fragment-p3310-c01 matches
+[2022-03-13 10:09:26] [0003.973] I> node /plugin-manager/fragment-p3310-c03 matches
+[2022-03-13 10:09:26] [0004.015] I> node /plugin-manager/fragment-e3326@0 matches
+[2022-03-13 10:09:26] [0004.097] I> node /plugin-manager/fragment-p3310-c00-camera matches
+[2022-03-13 10:09:26] [0004.125] I> Disable plugin-manager status in FDT
+[2022-03-13 10:09:26] [0004.129] I> Plugin-manager override finished successfully
+[2022-03-13 10:09:26] [0004.134] I> tegrabl_load_kernel_and_dtb: Done
+[2022-03-13 10:09:26] [0004.139] E> tegrabl_display_clear: display is not initialized
+[2022-03-13 10:09:26] [0004.144] W> Boot logo display failed...
+[2022-03-13 10:09:26] [0004.148] I> Kernel EP: 0x80600000, DTB: 0x80000000
+[2022-03-13 10:09:26] 
+[2022-03-13 10:09:26] 
+[2022-03-13 10:09:26] U-Boot 2020.04-g46e4604c78 (Jul 26 2021 - 12:10:58 -0700)
+[2022-03-13 10:09:26] 
+[2022-03-13 10:09:26] SoC: tegra186
+[2022-03-13 10:09:26] Model: NVIDIA P2771-0000-500
+[2022-03-13 10:09:26] Board: NVIDIA P2771-0000
+[2022-03-13 10:09:26] DRAM:  7.8 GiB
+[2022-03-13 10:09:26] MMC:   sdhci@3400000: 1, sdhci@3460000: 0
+[2022-03-13 10:09:26] Loading Environment from MMC... *** Warning - bad CRC, using default environment
+[2022-03-13 10:09:26] 
+[2022-03-13 10:09:26] In:    serial
+[2022-03-13 10:09:26] Out:   serial
+[2022-03-13 10:09:26] Err:   serial
+[2022-03-13 10:09:26] Net:   
+[2022-03-13 10:09:26] Warning: ethernet@2490000 using MAC address from ROM
+[2022-03-13 10:09:26] eth0: ethernet@2490000
+[2022-03-13 10:09:26] Hit any key to stop autoboot:  2  1  0 
+[2022-03-13 10:09:29] MMC: no card present
+[2022-03-13 10:09:29] switch to partitions #0, OK
+[2022-03-13 10:09:29] mmc0(part 0) is current device
+[2022-03-13 10:09:29] Scanning mmc 0:1...
+[2022-03-13 10:09:29] Found /boot/extlinux/extlinux.conf
+[2022-03-13 10:09:29] Retrieving file: /boot/extlinux/extlinux.conf
+[2022-03-13 10:09:29] 858 bytes read in 22 ms (38.1 KiB/s)
+[2022-03-13 10:09:29] 1:	primary kernel
+[2022-03-13 10:09:29] Retrieving file: /boot/initrd
+[2022-03-13 10:09:29] 7238344 bytes read in 201 ms (34.3 MiB/s)
+[2022-03-13 10:09:29] Retrieving file: /boot/Image
+[2022-03-13 10:09:30] 34484232 bytes read in 829 ms (39.7 MiB/s)
+[2022-03-13 10:09:30] append: console=ttyS0,115200 androidboot.presilicon=true firmware_class.path=/etc/firmware root=/dev/mmcblk0p1 rw rootwait rootfstype=ext4 console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0 isolcpus=1-2  video=tegrafb earlycon=uart8250,mmio32,0x3100000 nvdumper_reserved=0x2772e0000 gpt rootfs.slot_suffix= usbcore.old_scheme_first=1 tegraid=18.1.2.0.0 maxcpus=6 no_console_suspend boot.slot_suffix= boot.ratchetvalues=0.2031647.1 vpr_resize bl_prof_dataptr=0x10000@0x275840000 sdhci_tegra.en_boot_part_access=1 quiet root=/dev/mmcblk0p1 rw rootwait rootfstype=ext4 console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0 isolcpus=1-2 
+[2022-03-13 10:09:30] ## Flattened Device Tree blob at 80000000
+[2022-03-13 10:09:30]    Booting using the fdt blob at 0x80000000
+[2022-03-13 10:09:30] ERROR: reserving fdt memory region failed (addr=0 size=0)
+[2022-03-13 10:09:30] ERROR: reserving fdt memory region failed (addr=0 size=0)
+[2022-03-13 10:09:30] ERROR: reserving fdt memory region failed (addr=0 size=0)
+[2022-03-13 10:09:30]    Using Device Tree in place at 0000000080000000, end 0000000080060aa3
+[2022-03-13 10:09:30] copying carveout for /host1x@13e00000/display-hub@15200000/display@15200000...
+[2022-03-13 10:09:30] copying carveout for /host1x@13e00000/display-hub@15200000/display@15210000...
+[2022-03-13 10:09:30] copying carveout for /host1x@13e00000/display-hub@15200000/display@15220000...
+[2022-03-13 10:09:30] 
+[2022-03-13 10:09:30] Starting kernel ...
+[2022-03-13 10:09:30] 
+[2022-03-13 10:09:30] [    0.000000] Booting Linux on physical CPU 0x100
+[2022-03-13 10:09:30] [    0.000000] Linux version 4.9.253-tegra (buildbrain@mobile-u64-5497-d3000) (gcc version 7.3.1 20180425 [linaro-7.3-2018.05 revision d29120a424ecfbc167ef90065c0eeb7f91977701] (Linaro GCC 7.3-2018.05) ) #1 SMP PREEMPT Mon Jul 26 12:19:28 PDT 2021
+[2022-03-13 10:09:30] [    0.000000] Boot CPU: AArch64 Processor [411fd073]
+[2022-03-13 10:09:30] [    0.000000] OF: fdt:memory scan node memory@80000000, reg size 80,
+[2022-03-13 10:09:30] [    0.000000] OF: fdt: - 80000000 ,  70000000
+[2022-03-13 10:09:30] [    0.000000] OF: fdt: - f0200000 ,  185600000
+[2022-03-13 10:09:30] [    0.000000] OF: fdt: - 275e00000 ,  200000
+[2022-03-13 10:09:30] [    0.000000] OF: fdt: - 276600000 ,  200000
+[2022-03-13 10:09:30] [    0.000000] OF: fdt: - 277000000 ,  200000
+[2022-03-13 10:09:30] [    0.000000] earlycon: uart8250 at MMIO32 0x0000000003100000 (options '')
+[2022-03-13 10:09:30] [    0.000000] bootconsole [uart8250] enabled
+[2022-03-13 10:09:32] [    1.834443] cgroup: cgroup2: unknown option "nsdelegate"
+[2022-03-13 10:09:33] [    2.848682] using random self ethernet address
+[2022-03-13 10:09:34] [    2.871724] using random host ethernet address
+[2022-03-13 10:09:34] [    3.320885] random: crng init done
+[2022-03-13 10:09:34] [    3.324291] random: 7 urandom warning(s) missed due to ratelimiting
+[2022-03-13 10:09:34] [    3.498553] using random self ethernet address
+[2022-03-13 10:09:34] [    3.504752] using random host ethernet address
+[2022-03-13 10:09:34] [    3.835543] CPU1: shutdown
+[2022-03-13 10:09:35] [    3.884726] CPU2: shutdown
+[2022-03-13 10:09:35] [    4.707295] Bridge firewalling registered
+[2022-03-13 10:09:39] 
+[2022-03-13 10:09:39] Ubuntu 18.04.5 LTS JTX2-A ttyS0
+[2022-03-13 10:09:39] 
+[2022-03-13 10:09:39] JTX2-A login: [0000.283] I> Welcome to MB2(TBoot-BPMP)(version: 01.00.160913-t186-M-00.00-mobile-c368a720)
+[2022-03-13 10:09:43] [0000.292] I> Boot-device: eMMC
+[2022-03-13 10:09:43] [0000.299] I> sdmmc bdev is already initialized
+[2022-03-13 10:09:43] [0000.304] I> pmic: reset reason (nverc)	: 0x80
+[2022-03-13 10:09:43] [0000.337] I> Found 19 partitions in SDMMC_BOOT (instance 3)
+[2022-03-13 10:09:43] [0000.357] I> Found 33 partitions in SDMMC_USER (instance 3)
+[2022-03-13 10:09:43] [0000.363] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:43] [0000.368] W> Return default slot: _a
+[2022-03-13 10:09:43] [0000.372] I> A/B: bin_type (16) slot 0
+[2022-03-13 10:09:43] [0000.375] I> Loading partition bpmp-fw at 0xd7800000
+[2022-03-13 10:09:43] [0000.380] I> Reading two headers - addr:0xd7800000 blocks:1
+[2022-03-13 10:09:43] [0000.386] I> Addr: 0xd7800000, start-block: 58777608, num_blocks: 1
+[2022-03-13 10:09:43] [0000.411] I> Binary(16) of size 534416 is loaded @ 0xd7800000
+[2022-03-13 10:09:43] [0000.416] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:43] [0000.422] W> Return default slot: _a
+[2022-03-13 10:09:43] [0000.425] I> A/B: bin_type (17) slot 0
+[2022-03-13 10:09:43] [0000.429] I> Loading partition bpmp-fw-dtb at 0xd79f0000
+[2022-03-13 10:09:43] [0000.434] I> Reading two headers - addr:0xd79f0000 blocks:1
+[2022-03-13 10:09:43] [0000.440] I> Addr: 0xd79f0000, start-block: 58780024, num_blocks: 1
+[2022-03-13 10:09:43] [0000.465] I> Binary(17) of size 604720 is loaded @ 0xd796c400
+[2022-03-13 10:09:44] [0000.695] I> Loading SCE-FW ...
+[2022-03-13 10:09:44] [0000.698] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:44] [0000.704] W> Return default slot: _a
+[2022-03-13 10:09:44] [0000.707] I> A/B: bin_type (12) slot 0
+[2022-03-13 10:09:44] [0000.711] I> Loading partition sce-fw at 0xd7300000
+[2022-03-13 10:09:44] [0000.716] I> Reading two headers - addr:0xd7300000 blocks:1
+[2022-03-13 10:09:44] [0000.721] I> Addr: 0xd7300000, start-block: 58784120, num_blocks: 1
+[2022-03-13 10:09:44] [0000.740] I> Binary(12) of size 125632 is loaded @ 0xd7300000
+[2022-03-13 10:09:44] [0000.746] I> Init SCE
+[2022-03-13 10:09:44] [0000.748] I> Loading APE-FW ...
+[2022-03-13 10:09:44] [0000.751] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:44] [0000.757] W> Return default slot: _a
+[2022-03-13 10:09:44] [0000.760] I> A/B: bin_type (11) slot 0
+[2022-03-13 10:09:44] [0000.764] I> Loading partition adsp-fw at 0xd7400000
+[2022-03-13 10:09:44] [0000.769] I> Reading two headers - addr:0xd7400000 blocks:1
+[2022-03-13 10:09:44] [0000.774] I> Addr: 0xd7400000, start-block: 58761224, num_blocks: 1
+[2022-03-13 10:09:44] [0000.793] I> Binary(11) of size 77216 is loaded @ 0xd7400000
+[2022-03-13 10:09:44] [0000.799] I> Copy BTCM section
+[2022-03-13 10:09:44] [0000.802] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:44] [0000.808] W> Return default slot: _a
+[2022-03-13 10:09:44] [0000.811] I> A/B: bin_type (13) slot 0
+[2022-03-13 10:09:44] [0000.815] I> Loading partition cpu-bootloader at 0x96000000
+[2022-03-13 10:09:44] [0000.820] I> Reading two headers - addr:0x96000000 blocks:1
+[2022-03-13 10:09:44] [0000.826] I> Addr: 0x96000000, start-block: 58740744, num_blocks: 1
+[2022-03-13 10:09:44] [0000.847] I> Binary(13) of size 308800 is loaded @ 0x96000000
+[2022-03-13 10:09:44] [0000.852] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:44] [0000.858] W> Return default slot: _a
+[2022-03-13 10:09:44] [0000.861] I> A/B: bin_type (20) slot 0
+[2022-03-13 10:09:44] [0000.865] I> Loading partition bootloader-dtb at 0x85205400
+[2022-03-13 10:09:44] [0000.871] I> Reading two headers - addr:0x85205400 blocks:1
+[2022-03-13 10:09:44] [0000.876] I> Addr: 0x85205400, start-block: 58742792, num_blocks: 1
+[2022-03-13 10:09:44] [0000.898] I> Binary(20) of size 375568 is loaded @ 0x85205400
+[2022-03-13 10:09:44] [0000.904] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:44] [0000.909] W> Return default slot: _a
+[2022-03-13 10:09:44] [0000.913] I> A/B: bin_type (14) slot 0
+[2022-03-13 10:09:44] [0000.917] I> Loading partition secure-os at 0x85305600
+[2022-03-13 10:09:44] [0000.922] I> Reading two headers - addr:0x85305600 blocks:1
+[2022-03-13 10:09:44] [0000.927] I> Addr: 0x85305600, start-block: 58744840, num_blocks: 1
+[2022-03-13 10:09:44] [0000.949] I> Binary(14) of size 402864 is loaded @ 0x85305600
+[2022-03-13 10:09:44] [0000.957] I> TOS boot-params @ 0x85000000
+[2022-03-13 10:09:44] [0000.961] I> TOS params prepared
+[2022-03-13 10:09:44] [0000.964] I> Loading EKS ...
+[2022-03-13 10:09:44] [0000.967] I> A/B: bin_type (15) slot 0
+[2022-03-13 10:09:44] [0000.970] I> Loading partition eks at 0x85905800
+[2022-03-13 10:09:44] [0000.975] I> Reading two headers - addr:0x85905800 blocks:1
+[2022-03-13 10:09:44] [0000.980] I> Addr: 0x85905800, start-block: 58757128, num_blocks: 1
+[2022-03-13 10:09:44] [0000.999] I> Binary(15) of size 1040 is loaded @ 0x85905800
+[2022-03-13 10:09:44] [0001.005] I> EKB detected (length: 0x400) @ 0x85905800
+[2022-03-13 10:09:44] [0001.010] I> Copied encrypted keys
+[2022-03-13 10:09:44] [0001.013] I> boot profiler @ 0x275844000
+[2022-03-13 10:09:44] [0001.017] I> boot profiler for TOS @ 0x275844000
+[2022-03-13 10:09:44] [0001.022] I> Unhalting SCE
+[2022-03-13 10:09:44] [0001.025] I> Primary Memory Start:80000000 Size:70000000
+[2022-03-13 10:09:44] [0001.030] I> Extended Memory Start:f0110000 Size:1856f0000
+[2022-03-13 10:09:44] [0001.037] I> MB2(TBoot-BPMP) done
+[2022-03-13 10:09:44] 
+[2022-03-13 10:09:44] NOTICE:  BL31: v1.3(release):b5eeb33f7
+[2022-03-13 10:09:44] NOTICE:  BL31: Built : 12:15:17, Jul 26 2021
+[2022-03-13 10:09:44] ipc-unittest-main: 1519: Welcome to IPC unittest!!!
+[2022-03-13 10:09:44] ipc-unittest-main: 1531: waiting forever
+[2022-03-13 10:09:44] ipc-unittest-srv: 329: Init unittest services!!!
+[2022-03-13 10:09:44] hwkey-agent: 41: hwkey-agent is running!!
+[2022-03-13 10:09:44] hwkey-agent: 315: key_mgnt_processing .......
+[2022-03-13 10:09:44] hwkey-agent: 223: Setting EKB key 0 to slot 14
+[2022-03-13 10:09:44] hwkey-agent: 178: Init hweky-agent services!!
+[2022-03-13 10:09:44] luks-srv: 40: luks-srv is running!!
+[2022-03-13 10:09:44] luks-srv: 157: Init luks-srv IPC services!!
+[2022-03-13 10:09:44] platform_bootstrap_epilog: trusty bootstrap complete
+[2022-03-13 10:09:44] [0001.409] I> Welcome to Cboot
+[2022-03-13 10:09:44] [0001.412] I> Cboot Version: t186-00029e71
+[2022-03-13 10:09:44] [0001.416] I> CPU-BL Params @ 0x275800000
+[2022-03-13 10:09:44] [0001.419] I>  0) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:44] [0001.424] I>  1) Base:0x277f00000 Size:0x00100000
+[2022-03-13 10:09:44] [0001.428] I>  2) Base:0x277e00000 Size:0x00100000
+[2022-03-13 10:09:44] [0001.433] I>  3) Base:0x277d00000 Size:0x00100000
+[2022-03-13 10:09:44] [0001.437] I>  4) Base:0x277c00000 Size:0x00100000
+[2022-03-13 10:09:44] [0001.442] I>  5) Base:0x277b00000 Size:0x00100000
+[2022-03-13 10:09:44] [0001.446] I>  6) Base:0x277800000 Size:0x00200000
+[2022-03-13 10:09:44] [0001.451] I>  7) Base:0x277400000 Size:0x00400000
+[2022-03-13 10:09:44] [0001.455] I>  8) Base:0x277a00000 Size:0x00100000
+[2022-03-13 10:09:44] [0001.460] I>  9) Base:0x277300000 Size:0x00100000
+[2022-03-13 10:09:44] [0001.464] I> 10) Base:0x276800000 Size:0x00800000
+[2022-03-13 10:09:44] [0001.469] I> 11) Base:0x30000000 Size:0x00040000
+[2022-03-13 10:09:44] [0001.473] I> 12) Base:0xf0000000 Size:0x00100000
+[2022-03-13 10:09:44] [0001.478] I> 13) Base:0x30040000 Size:0x00001000
+[2022-03-13 10:09:44] [0001.482] I> 14) Base:0x30048000 Size:0x00001000
+[2022-03-13 10:09:44] [0001.487] I> 15) Base:0x30049000 Size:0x00001000
+[2022-03-13 10:09:44] [0001.491] I> 16) Base:0x3004a000 Size:0x00001000
+[2022-03-13 10:09:44] [0001.496] I> 17) Base:0x3004b000 Size:0x00001000
+[2022-03-13 10:09:44] [0001.500] I> 18) Base:0x3004c000 Size:0x00001000
+[2022-03-13 10:09:44] [0001.504] I> 19) Base:0x3004d000 Size:0x00001000
+[2022-03-13 10:09:44] [0001.509] I> 20) Base:0x3004e000 Size:0x00001000
+[2022-03-13 10:09:44] [0001.513] I> 21) Base:0x3004f000 Size:0x00001000
+[2022-03-13 10:09:44] [0001.518] I> 22) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:44] [0001.522] I> 23) Base:0xf0100000 Size:0x00010000
+[2022-03-13 10:09:44] [0001.527] I> 24) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:44] [0001.531] I> 25) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:44] [0001.535] I> 26) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:44] [0001.540] I> 27) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:44] [0001.544] I> 28) Base:0x84400000 Size:0x00400000
+[2022-03-13 10:09:44] [0001.549] I> 29) Base:0x30000000 Size:0x00010000
+[2022-03-13 10:09:44] [0001.553] I> 30) Base:0x278000000 Size:0x08000000
+[2022-03-13 10:09:45] [0001.558] I> 31) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:45] [0001.562] I> 32) Base:0x276000000 Size:0x00600000
+[2022-03-13 10:09:45] [0001.567] I> 33) Base:0x80000000 Size:0x70000000
+[2022-03-13 10:09:45] [0001.571] I> 34) Base:0xf0110000 Size:0x1856f0000
+[2022-03-13 10:09:45] [0001.576] I> 35) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:45] [0001.580] I> 36) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:45] [0001.584] I> 37) Base:0x2772e0000 Size:0x00020000
+[2022-03-13 10:09:45] [0001.589] I> 38) Base:0x84000000 Size:0x00400000
+[2022-03-13 10:09:45] [0001.593] I> 39) Base:0x96000000 Size:0x02000000
+[2022-03-13 10:09:45] [0001.598] I> 40) Base:0x85000000 Size:0x01200000
+[2022-03-13 10:09:45] [0001.602] I> 41) Base:0x275800000 Size:0x00500000
+[2022-03-13 10:09:45] [0001.607] I> 42) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:45] [0001.611] I> 43) Base:0x00000000 Size:0x00000000
+[2022-03-13 10:09:45] [0001.616] GIC-SPI Target CPU: 4
+[2022-03-13 10:09:45] [0001.619] Interrupts Init done
+[2022-03-13 10:09:45] [0001.622] calling constructors
+[2022-03-13 10:09:45] [0001.625] initializing heap
+[2022-03-13 10:09:45] [0001.628] initializing threads
+[2022-03-13 10:09:45] [0001.631] initializing timers
+[2022-03-13 10:09:45] [0001.634] creating bootstrap completion thread
+[2022-03-13 10:09:45] [0001.639] top of bootstrap2()
+[2022-03-13 10:09:45] [0001.642] CPU: ARM Cortex A57
+[2022-03-13 10:09:45] [0001.645] CPU: MIDR: 0x411FD073, MPIDR: 0x80000100
+[2022-03-13 10:09:45] [0001.650] initializing platform
+[2022-03-13 10:09:45] [0001.654] I> Bl_dtb @0x85205400
+[2022-03-13 10:09:45] [0001.657] I> gpio framework initialized
+[2022-03-13 10:09:45] [0001.663] I> tegrabl_gpio_driver_register: register 'nvidia,tegra186-gpio' driver
+[2022-03-13 10:09:45] [0001.673] I> tegrabl_gpio_driver_register: register 'nvidia,tegra186-gpio-aon' driver
+[2022-03-13 10:09:45] [0001.681] I> GPIO framework and drivers are initialized.
+[2022-03-13 10:09:45] [0001.686] I> Boot-device: eMMC
+[2022-03-13 10:09:45] [0001.693] I> sdmmc bdev is already initialized
+[2022-03-13 10:09:45] [0001.724] I> Found 19 partitions in SDMMC_BOOT (instance 3)
+[2022-03-13 10:09:45] [0001.742] I> Found 33 partitions in SDMMC_USER (instance 3)
+[2022-03-13 10:09:45] [0001.747] W> opt-in fuse is not set, skip fuse_burning
+[2022-03-13 10:09:45] [0001.752] I> Reserved memory at 0xfbe00000 for U-Boot relocation
+[2022-03-13 10:09:45] [0001.758] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:45] [0001.763] W> Return default slot: _a
+[2022-03-13 10:09:45] [0001.773] I> A/B: bin_type (21) slot 0
+[2022-03-13 10:09:45] [0001.776] I> Loading kernel-dtb from partition
+[2022-03-13 10:09:45] [0001.781] I> Loading partition kernel-dtb at 0x80000000 from device(0x1)
+[2022-03-13 10:09:45] [0001.798] I> Kernel_dtb @0x80000000
+[2022-03-13 10:09:45] [0001.801] I> tegrabl_tca9539_init: i2c bus: 0, slave addr: 0xee
+[2022-03-13 10:09:45] [0001.812] I> tegrabl_gpio_driver_register: register 'tca9539_gpio_driver' driver
+[2022-03-13 10:09:45] [0001.819] I> tegrabl_tca9539_init: i2c bus: 0, slave addr: 0xe8
+[2022-03-13 10:09:45] [0001.828] I> tegrabl_gpio_driver_register: register 'tca9539_gpio_driver' driver
+[2022-03-13 10:09:45] [0001.838] I> fixed regulator driver initialized
+[2022-03-13 10:09:45] [0001.871] I> register 'maxim' power off handle
+[2022-03-13 10:09:45] [0001.877] I> virtual i2c enabled
+[2022-03-13 10:09:45] [0001.881] I> registered 'maxim,max77620' pmic
+[2022-03-13 10:09:45] [0001.885] I> tegrabl_gpio_driver_register: register 'max77620-gpio' driver
+[2022-03-13 10:09:45] [0001.899] E> failed to read label property for node 324936: 13
+[2022-03-13 10:09:45] [0001.907] E> failed to read reg property for node 325032: 13
+[2022-03-13 10:09:45] [0001.916] E> failed to read reg property for node 325084: 13
+[2022-03-13 10:09:45] [0001.924] E> failed to read label property for node 325168: 13
+[2022-03-13 10:09:45] [0001.932] E> failed to read label property for node 325236: 13
+[2022-03-13 10:09:45] [0001.941] E> failed to read reg property for node 325304: 13
+[2022-03-13 10:09:45] [0001.949] E> failed to read reg property for node 325376: 13
+[2022-03-13 10:09:45] [0001.959] I> Find /i2c@c250000's alias i2c7
+[2022-03-13 10:09:45] [0001.963] I> Reading eeprom i2c=7 address=0x50
+[2022-03-13 10:09:45] [0001.993] I> Device at /i2c@c250000:0x50
+[2022-03-13 10:09:45] [0001.996] I> Reading eeprom i2c=7 address=0x57
+[2022-03-13 10:09:45] [0002.025] I> Device at /i2c@c250000:0x57
+[2022-03-13 10:09:45] [0002.029] I> Find /i2c@c240000's alias i2c1
+[2022-03-13 10:09:45] [0002.033] I> Reading eeprom i2c=1 address=0x51
+[2022-03-13 10:09:45] [0002.038] E> I2C: slave not found in slaves.
+[2022-03-13 10:09:45] [0002.043] E> I2C: Could not write 0 bytes to slave: 0x00a2 with repeat start true.
+[2022-03-13 10:09:45] [0002.050] E> I2C_DEV: Failed to send register address 0x00000000.
+[2022-03-13 10:09:45] [0002.056] E> I2C_DEV: Could not read 256 registers of size 1 from slave 0xa2 at 0x00000000 via instance 1.
+[2022-03-13 10:09:45] [0002.066] E> eeprom: Retry to read I2C slave device.
+[2022-03-13 10:09:45] [0002.071] E> I2C: slave not found in slaves.
+[2022-03-13 10:09:45] [0002.075] E> I2C: Could not write 0 bytes to slave: 0x00a2 with repeat start true.
+[2022-03-13 10:09:45] [0002.082] E> I2C_DEV: Failed to send register address 0x00000000.
+[2022-03-13 10:09:45] [0002.088] E> I2C_DEV: Could not read 256 registers of size 1 from slave 0xa2 at 0x00000000 via instance 1.
+[2022-03-13 10:09:45] [0002.098] E> eeprom: Failed to read I2C slave device
+[2022-03-13 10:09:45] [0002.103] I> Eeprom read failed 0x3526070d
+[2022-03-13 10:09:45] [0002.107] I> Find /i2c@3160000's alias i2c0
+[2022-03-13 10:09:45] [0002.111] I> Reading eeprom i2c=0 address=0x50
+[2022-03-13 10:09:45] [0002.115] E> I2C: slave not found in slaves.
+[2022-03-13 10:09:45] [0002.120] E> I2C: Could not write 0 bytes to slave: 0x00a0 with repeat start true.
+[2022-03-13 10:09:45] [0002.127] E> I2C_DEV: Failed to send register address 0x00000000.
+[2022-03-13 10:09:45] [0002.133] E> I2C_DEV: Could not read 256 registers of size 1 from slave 0xa0 at 0x00000000 via instance 0.
+[2022-03-13 10:09:45] [0002.143] E> eeprom: Failed to read I2C slave device
+[2022-03-13 10:09:45] [0002.147] I> Eeprom read failed 0x3526070d
+[2022-03-13 10:09:45] [0002.152] I> Find /i2c@3180000's alias i2c2
+[2022-03-13 10:09:45] [0002.156] I> Reading eeprom i2c=2 address=0x54
+[2022-03-13 10:09:45] [0002.160] I> Enabling gpio chip_id = 2, gpio pin = 9
+[2022-03-13 10:09:45] [0002.191] I> Disabling gpio chip_id = 2, gpio pin = 9
+[2022-03-13 10:09:45] [0002.196] I> Device at /i2c@3180000:0x54
+[2022-03-13 10:09:45] [0002.200] I> Reading eeprom i2c=2 address=0x57
+[2022-03-13 10:09:45] [0002.204] I> Enabling gpio chip_id = 2, gpio pin = 9
+[2022-03-13 10:09:45] [0002.210] E> I2C: slave not found in slaves.
+[2022-03-13 10:09:45] [0002.214] E> I2C: Could not write 0 bytes to slave: 0x00ae with repeat start true.
+[2022-03-13 10:09:45] [0002.222] E> I2C_DEV: Failed to send register address 0x00000000.
+[2022-03-13 10:09:45] [0002.228] E> I2C_DEV: Could not read 256 registers of size 1 from slave 0xae at 0x00000000 via instance 2.
+[2022-03-13 10:09:45] [0002.237] E> eeprom: Failed to read I2C slave device
+[2022-03-13 10:09:45] [0002.242] I> Disabling gpio chip_id = 2, gpio pin = 9
+[2022-03-13 10:09:45] [0002.247] I> Eeprom read failed 0x00000000
+[2022-03-13 10:09:45] [0002.251] I> create_pm_ids: id: 3310-1000-D00-L, len: 15
+[2022-03-13 10:09:45] [0002.256] I> config: mem-type:00,power-config:00,misc-config:00,modem-config:00,touch-config:00,display-config:00,, len: 93
+[2022-03-13 10:09:45] [0002.267] I> create_pm_ids: id: 2597-0000-900-E, len: 15
+[2022-03-13 10:09:45] [0002.272] I> config: mem-type:00,power-config:00,misc-config:00,modem-config:00,touch-config:00,display-config:00,, len: 93
+[2022-03-13 10:09:45] [0002.283] I> create_pm_ids: id: 3326-1000-000-M, len: 15
+[2022-03-13 10:09:45] [0002.288] I> config: mem-type:ff,power-config:ff,misc-config:ff,modem-config:ff,touch-config:ff,display-config:ff,, len: 93
+[2022-03-13 10:09:45] [0002.323] I> enabling 'vdd-hdmi' regulator
+[2022-03-13 10:09:45] [0002.339] I> regulator 'vdd-hdmi' already enabled
+[2022-03-13 10:09:45] [0002.343] E> tegrabl_display_init_regulator: hdmi cable is not connected
+[2022-03-13 10:09:45] [0002.350] E> tegrabl_display_get_pdata, failed to parse dtb settings
+[2022-03-13 10:09:45] [0002.359] E> cannot find any other nvdisp nodes
+[2022-03-13 10:09:45] [0002.363] E> no valid display unit config found in dtb
+[2022-03-13 10:09:45] [0002.369] W> display init failed
+[2022-03-13 10:09:45] [0002.372] initializing target
+[2022-03-13 10:09:45] [0002.375] calling apps_init()
+[2022-03-13 10:09:45] [0002.378] starting app kernel_boot_app
+[2022-03-13 10:09:45] [0002.401] I> found decompressor handler: lz4-legacy
+[2022-03-13 10:09:45] [0002.405] I> decompressing BMP blob ...
+[2022-03-13 10:09:45] [0002.418] I> Kernel type = Normal
+[2022-03-13 10:09:45] [0002.421] I> ########## Fixed storage boot ##########
+[2022-03-13 10:09:45] [0002.426] I> Loading kernel-bootctrl from partition
+[2022-03-13 10:09:45] [0002.430] I> Loading partition kernel-bootctrl at 0xa8000000 from device(0x1)
+[2022-03-13 10:09:45] [0002.445] W> tegrabl_get_kernel_bootctrl: magic number(0x00000000) is invalid
+[2022-03-13 10:09:45] [0002.452] W> tegrabl_get_kernel_bootctrl: use default dummy boot control data
+[2022-03-13 10:09:45] [0002.459] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:45] [0002.464] W> Return default slot: _a
+[2022-03-13 10:09:45] [0002.468] I> A/B: bin_type (24) slot 0
+[2022-03-13 10:09:45] [0002.483] I> Boot image size read from image header: 9913d
+[2022-03-13 10:09:45] [0002.489] I> Boot image load address: 0x80400000
+[2022-03-13 10:09:45] [0002.493] I> Loading kernel from partition
+[2022-03-13 10:09:45] [0002.497] I> Loading partition kernel at 0x80400000 from device(0x1)
+[2022-03-13 10:09:46] [0003.441] I> Validate kernel ...
+[2022-03-13 10:09:46] [0003.444] I> T18x: Authenticate kernel (bin_type 24), max size 0x4000000
+[2022-03-13 10:09:46] [0003.452] I> Decrypt the buffer ... [0003.455] W> tegrabl_decrypt_block: fuse (0x0) is not burnt to do encryption (0x4); skip decryption.
+[2022-03-13 10:09:46] [0003.464] I> done
+[2022-03-13 10:09:46] [0003.466] I> Checking boot.img header magic ... [0003.470] I> [OK]
+[2022-03-13 10:09:46] [0003.472] I> kernel-dtb is already loaded
+[2022-03-13 10:09:46] [0003.475] I> Validate kernel-dtb ...
+[2022-03-13 10:09:46] [0003.479] I> T18x: Authenticate kernel-dtb (bin_type 21), max size 0x100000
+[2022-03-13 10:09:46] [0003.486] I> Decrypt the buffer ... [0003.490] W> tegrabl_decrypt_block: fuse (0x0) is not burnt to do encryption (0x4); skip decryption.
+[2022-03-13 10:09:46] [0003.499] I> done
+[2022-03-13 10:09:46] [0003.500] I> Kernel hdr @0x80400000
+[2022-03-13 10:09:46] [0003.504] I> Kernel dtb @0x80000000
+[2022-03-13 10:09:46] [0003.507] I> decompressor handler not found
+[2022-03-13 10:09:46] [0003.511] I> Copying kernel image (627005 bytes) from 0x80400800 to 0x80600000 ... [0003.519] I> Done
+[2022-03-13 10:09:46] [0003.520] I> Move ramdisk (len: 0) from 0x8049a000 to 0x947d0000
+[2022-03-13 10:09:46] [0003.528] I> Updated bpmp info to DTB
+[2022-03-13 10:09:46] [0003.534] I> Ramdisk: Base: 0x947d0000; Size: 0x0
+[2022-03-13 10:09:46] [0003.538] I> Updated initrd info to DTB
+[2022-03-13 10:09:46] [0003.542] W> WARN: Fail to override "console=none" in commandline
+[2022-03-13 10:09:46] [0003.548] I> Active rootfs suffix: 
+[2022-03-13 10:09:46] [0003.551] E> tegrabl_linuxboot_add_disp_param, du 0 failed to get display params
+[2022-03-13 10:09:47] [0003.558] E> tegrabl_linuxboot_add_disp_param, du 0 failed to get display params
+[2022-03-13 10:09:47] [0003.566] E> tegrabl_linuxboot_add_disp_param, du 0 failed to get display params
+[2022-03-13 10:09:47] [0003.573] I> disabled_core_mask: 0xffffff0c
+[2022-03-13 10:09:47] [0003.577] W> No valid slot number is found in scratch register
+[2022-03-13 10:09:47] [0003.582] W> Return default slot: _a
+[2022-03-13 10:09:47] [0003.586] I> Active slot suffix: 
+[2022-03-13 10:09:47] [0003.589] I> add_boot_slot_suffix: slot_suffix = 
+[2022-03-13 10:09:47] [0003.594] I> Linux Cmdline: console=ttyS0,115200 androidboot.presilicon=true firmware_class.path=/etc/firmware root=/dev/mmcblk0p1 rw rootwait rootfstype=ext4 console=ttyS0,115200n8 console=tty0 fbcon=map:0 net.ifnames=0 isolcpus=1-2  video=tegrafb earlycon=uart8250,mmio32,0x3100000 nvdumper_reserved=0x2772e0000 gpt rootfs.slot_suffix= usbcore.old_scheme_first=1 tegraid=18.1.2.0.0 maxcpus=6 no_console_suspend boot.slot_suffix= boot.ratchetvalues=0.2031647.1 vpr_resize bl_prof_dataptr=0x10000@0x275840000 sdhci_tegra.en_boot_part_access=1 
+[2022-03-13 10:09:47] [0003.641] I> Updated bootarg info to DTB
+[2022-03-13 10:09:47] [0003.645] I> eeprom_get_mac_addr: MAC (type: 0): 48:b0:2d:0f:11:c5
+[2022-03-13 10:09:47] [0003.651] I> eeprom_get_mac_addr: MAC (type: 1): 48:b0:2d:0f:11:c6
+[2022-03-13 10:09:47] [0003.657] I> eeprom_get_mac_addr: MAC (type: 2): 48:b0:2d:0f:11:c7
+[2022-03-13 10:09:47] [0003.664] E> Found no plugin manager ids in source DT
+[2022-03-13 10:09:47] [0003.668] W> Add plugin manager ids from board info
+[2022-03-13 10:09:47] [0003.673] W> "plugin-manager" doesn't exist, creating
+[2022-03-13 10:09:47] [0003.678] W> "ids" doesn't exist, creating
+[2022-03-13 10:09:47] [0003.682] W> "connection" doesn't exist, creating
+[2022-03-13 10:09:47] [0003.687] W> "configs" doesn't exist, creating
+[2022-03-13 10:09:47] [0003.691] I> create_pm_ids: id: 3310-1000-D00-L, len: 15
+[2022-03-13 10:09:47] [0003.696] I> config: mem-type:00,power-config:00,misc-config:00,modem-config:00,touch-config:00,display-config:00,, len: 93
+[2022-03-13 10:09:47] [0003.707] I> create_pm_ids: id: 2597-0000-900-E, len: 15
+[2022-03-13 10:09:47] [0003.712] I> config: mem-type:00,power-config:00,misc-config:00,modem-config:00,touch-config:00,display-config:00,, len: 93
+[2022-03-13 10:09:47] [0003.723] I> create_pm_ids: id: 3326-1000-000-M, len: 15
+[2022-03-13 10:09:47] [0003.728] I> config: mem-type:ff,power-config:ff,misc-config:ff,modem-config:ff,touch-config:ff,display-config:ff,, len: 93
+[2022-03-13 10:09:47] [0003.739] I> Adding plugin-manager/ids/3310-1000-D00=/i2c@c250000:module@0x50
+[2022-03-13 10:09:47] [0003.746] W> "i2c@c250000" doesn't exist, creating
+[2022-03-13 10:09:47] [0003.751] W> "module@0x50" doesn't exist, creating
+[2022-03-13 10:09:47] [0003.756] I> Adding plugin-manager/ids/2597-0000-900=/i2c@c250000:module@0x57
+[2022-03-13 10:09:47] [0003.763] W> "module@0x57" doesn't exist, creating
+[2022-03-13 10:09:47] [0003.768] I> Adding plugin-manager/ids/3326-1000-000=/i2c@3180000:module@0x54
+[2022-03-13 10:09:47] [0003.775] W> "i2c@3180000" doesn't exist, creating
+[2022-03-13 10:09:47] [0003.780] W> "module@0x54" doesn't exist, creating
+[2022-03-13 10:09:47] [0003.787] I> Adding plugin-manager/ids/3310-1000-D00-L
+[2022-03-13 10:09:47] [0003.794] I> Adding plugin-manager/configs/3310-mem-type 00
+[2022-03-13 10:09:47] [0003.800] I> Adding plugin-manager/configs/3310-power-config 00
+[2022-03-13 10:09:47] [0003.806] I> Adding plugin-manager/configs/3310-misc-config 00
+[2022-03-13 10:09:47] [0003.812] I> Adding plugin-manager/configs/3310-modem-config 00
+[2022-03-13 10:09:47] [0003.817] I> Adding plugin-manager/configs/3310-touch-config 00
+[2022-03-13 10:09:47] [0003.823] I> Adding plugin-manager/configs/3310-display-config 00
+[2022-03-13 10:09:47] [0003.830] I> Adding plugin-manager/cvm
+[2022-03-13 10:09:47] [0003.834] W> "chip-id" doesn't exist, creating
+[2022-03-13 10:09:47] [0003.838] I> Adding plugin-manager/chip-id/A02P
+[2022-03-13 10:09:47] [0003.842] W> "odm-data" doesn't exist, creating
+[2022-03-13 10:09:47] [0003.847] I> Adding /chosen/plugin-manager/odm-data
+[2022-03-13 10:09:47] [0003.857] I> added [base:0x80000000, size:0x70000000] to /memory
+[2022-03-13 10:09:47] [0003.863] I> added [base:0xf0200000, size:0x185600000] to /memory
+[2022-03-13 10:09:47] [0003.869] I> added [base:0x275e00000, size:0x200000] to /memory
+[2022-03-13 10:09:47] [0003.874] I> added [base:0x276600000, size:0x200000] to /memory
+[2022-03-13 10:09:47] [0003.880] I> added [base:0x277000000, size:0x200000] to /memory
+[2022-03-13 10:09:47] [0003.886] I> Updated memory info to DTB
+[2022-03-13 10:09:47] [0003.890] E> add_disp_param: failed to get display params for du=0
+[2022-03-13 10:09:47] [0003.898] W> "reset" doesn't exist, creating
+[2022-03-13 10:09:47] [0003.902] W> "pmc-reset-reason" doesn't exist, creating
+[2022-03-13 10:09:47] [0003.908] W> "pmic-reset-reason" doesn't exist, creating
+[2022-03-13 10:09:47] [0003.914] I> Adding ecid(00000001646db7851000000013038200) to DT
+[2022-03-13 10:09:47] [0003.920] I> disabled_core_mask: 0xffffff0c
+[2022-03-13 10:09:47] [0003.933] I> Add serial number:1422420022173 as DT property
+[2022-03-13 10:09:47] [0003.942] I> Plugin-manager override starting
+[2022-03-13 10:09:47] [0003.948] I> node /plugin-manager/fragement@0 matches
+[2022-03-13 10:09:47] [0003.958] I> node /plugin-manager/fragement@4 matches
+[2022-03-13 10:09:47] [0003.971] I> node /plugin-manager/fragment-sdwake-p3310-1000-300 matches
+[2022-03-13 10:09:47] [0003.991] I> node /plugin-manager/fragement-pmon-p3310-1000-300 matches
+[2022-03-13 10:09:47] [0004.000] I> node /plugin-manager/fragement-pmon-p3310-1000-800 matches
+[2022-03-13 10:09:47] [0004.009] I> node /plugin-manager/fragment-devslp@0 matches
+[2022-03-13 10:09:47] [0004.022] I> node /plugin-manager/fragment-500-pcie-config matches
+[2022-03-13 10:09:47] [0004.037] I> node /plugin-manager/fragment-500-xusb-config matches
+[2022-03-13 10:09:47] [0004.060] I> node /plugin-manager/fragment-p3310-c00-comm matches
+[2022-03-13 10:09:47] [0004.073] I> node /plugin-manager/fragment-p3310-c00-pmic matches
+[2022-03-13 10:09:47] [0004.084] I> node /plugin-manager/fragment-p3310-c01 matches
+[2022-03-13 10:09:47] [0004.097] I> node /plugin-manager/fragment-p3310-c03 matches
+[2022-03-13 10:09:47] [0004.140] I> node /plugin-manager/fragment-e3326@0 matches
+[2022-03-13 10:09:47] [0004.222] I> node /plugin-manager/fragment-p3310-c00-camera matches
+[2022-03-13 10:09:47] [0004.249] I> Disable plugin-manager status in FDT
+[2022-03-13 10:09:47] [0004.253] I> Plugin-manager override finished successfully
+[2022-03-13 10:09:47] [0004.259] I> tegrabl_load_kernel_and_dtb: Done
+[2022-03-13 10:09:47] [0004.263] E> tegrabl_display_clear: display is not initialized
+[2022-03-13 10:09:47] [0004.269] W> Boot logo display failed...
+[2022-03-13 10:09:47] [0004.272] I> Kernel EP: 0x80600000, DTB: 0x80000000
+[2022-03-13 10:09:47] 
+[2022-03-13 10:09:47] 
+[2022-03-13 10:09:47] U-Boot 2020.04-g46e4604c78 (Jul 26 2021 - 12:10:58 -0700)
+[2022-03-13 10:09:47] 
+[2022-03-13 10:09:47] SoC: tegra186
+[2022-03-13 10:09:47] Model: NVIDIA P2771-0000-500
+[2022-03-13 10:09:47] Board: NVIDIA P2771-0000
+[2022-03-13 10:09:47] DRAM:  7.8 GiB
+[2022-03-13 10:09:50] ERROR:   ARI request timed out: req 88 on CPU 4
+[2022-03-13 10:09:50] ASSERT: plat/nvidia/tegra/soc/t186/drivers/mce/ari.c <127> : retries != 0U

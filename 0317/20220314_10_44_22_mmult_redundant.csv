@@ -1,0 +1,12 @@
+20220314_10_44_23: Reboot tras HANG
+20220314_10_44_52: ------------------------------
+20220314_10_44_52: Hw: Jetson TX2, Pascal arch   
+20220314_10_44_52: Test: MMULT Version: DMR 
+20220314_10_44_52: Replicating the input for each kernel
+20220314_10_44_52: matrix size:3072
+20220314_10_44_52: ------------------------------
+20220314_10_44_59: - #run: 0
+20220314_10_44_59: OK
+20220314_10_44_59: Execution time: 6647793 us
+20220314_10_44_59: Time for CUDA kernels:	4829224 us
+20220314_10_45_16: posible HANG

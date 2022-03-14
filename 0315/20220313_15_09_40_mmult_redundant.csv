@@ -1,0 +1,44 @@
+20220313_15_09_40: Reboot tras HANG
+20220313_15_10_09: ------------------------------
+20220313_15_10_09: Hw: Jetson TX2, Pascal arch   
+20220313_15_10_09: Test: MMULT Version: DMR 
+20220313_15_10_09: Replicating the input for each kernel
+20220313_15_10_09: matrix size:3072
+20220313_15_10_09: ------------------------------
+20220313_15_10_15: Execution time: 5013397 us
+20220313_15_10_15: Time for CUDA kernels:	4882836 us
+20220313_15_10_19: Execution time: 4654371 us
+20220313_15_10_19: Time for CUDA kernels:	4574563 us
+20220313_15_10_24: Execution time: 4613751 us
+20220313_15_10_24: Time for CUDA kernels:	4561204 us
+20220313_15_10_25: ------------------------------
+20220313_15_10_25: Hw: Jetson TX2, Pascal arch   
+20220313_15_10_25: Test: MMULT Version: DMR 
+20220313_15_10_25: Replicating the input for each kernel
+20220313_15_10_25: matrix size:3072
+20220313_15_10_25: ------------------------------
+20220313_15_10_30: Execution time: 4582080 us
+20220313_15_10_30: Time for CUDA kernels:	4559578 us
+20220313_15_10_35: Execution time: 4603713 us
+20220313_15_10_35: Time for CUDA kernels:	4563414 us
+20220313_15_10_39: Execution time: 4594766 us
+20220313_15_10_39: Time for CUDA kernels:	4571651 us
+20220313_15_10_40: ------------------------------
+20220313_15_10_40: Hw: Jetson TX2, Pascal arch   
+20220313_15_10_40: Test: MMULT Version: DMR 
+20220313_15_10_40: Replicating the input for each kernel
+20220313_15_10_40: matrix size:3072
+20220313_15_10_40: ------------------------------
+20220313_15_10_46: Execution time: 4584587 us
+20220313_15_10_46: Time for CUDA kernels:	4562436 us
+20220313_15_10_50: Execution time: 4590218 us
+20220313_15_10_50: Time for CUDA kernels:	4565654 us
+20220313_15_10_55: Execution time: 4583402 us
+20220313_15_10_55: Time for CUDA kernels:	4561416 us
+20220313_15_10_56: ------------------------------
+20220313_15_10_56: Hw: Jetson TX2, Pascal arch   
+20220313_15_10_56: Test: MMULT Version: DMR 
+20220313_15_10_56: Replicating the input for each kernel
+20220313_15_10_56: matrix size:3072
+20220313_15_10_56: ------------------------------
+20220313_15_11_20: posible HANG

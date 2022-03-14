@@ -1,0 +1,8 @@
+20220313_13_45_50: 202203 INICIANDO TEST
+20220313_13_46_20: ------------------------------
+20220313_13_46_20: Hw: Jetson TX2, Pascal arch   
+20220313_13_46_20: Test: MMULT Version: DMR 
+20220313_13_46_20: Replicating the input for each kernel
+20220313_13_46_20: matrix size:3072
+20220313_13_46_20: ------------------------------
+20220313_13_46_44: posible HANG

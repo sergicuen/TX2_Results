@@ -1,0 +1,95 @@
+20220313_12_40_22: Reboot tras HANG
+20220313_12_40_51: ------------------------------
+20220313_12_40_51: Hw: Jetson TX2, Pascal arch   
+20220313_12_40_51: Test: MMULT Version: DMR 
+20220313_12_40_51: Replicating the input for each kernel
+20220313_12_40_51: matrix size:3072
+20220313_12_40_51: ------------------------------
+20220313_12_40_59: - #run: 0
+20220313_12_40_59: OK
+20220313_12_40_59: Execution time: 6921095 us
+20220313_12_40_59: Time for CUDA kernels:	5135463 us
+20220313_12_41_05: - #run: 1
+20220313_12_41_05: OK
+20220313_12_41_05: Execution time: 6239937 us
+20220313_12_41_05: Time for CUDA kernels:	4559270 us
+20220313_12_41_11: - #run: 2
+20220313_12_41_11: OK
+20220313_12_41_11: Execution time: 6192540 us
+20220313_12_41_11: Time for CUDA kernels:	4550283 us
+20220313_12_41_12: ------------------------------
+20220313_12_41_12: Hw: Jetson TX2, Pascal arch   
+20220313_12_41_12: Test: MMULT Version: DMR 
+20220313_12_41_12: Replicating the input for each kernel
+20220313_12_41_12: matrix size:3072
+20220313_12_41_12: ------------------------------
+20220313_12_41_19: - #run: 0
+20220313_12_41_19: OK
+20220313_12_41_19: Execution time: 6202629 us
+20220313_12_41_19: Time for CUDA kernels:	4546147 us
+20220313_12_41_25: - #run: 1
+20220313_12_41_25: OK
+20220313_12_41_25: Execution time: 6229140 us
+20220313_12_41_25: Time for CUDA kernels:	4583085 us
+20220313_12_41_31: - #run: 2
+20220313_12_41_31: OK
+20220313_12_41_31: Execution time: 6190402 us
+20220313_12_41_31: Time for CUDA kernels:	4560798 us
+20220313_12_41_32: ------------------------------
+20220313_12_41_32: Hw: Jetson TX2, Pascal arch   
+20220313_12_41_32: Test: MMULT Version: DMR 
+20220313_12_41_32: Replicating the input for each kernel
+20220313_12_41_32: matrix size:3072
+20220313_12_41_32: ------------------------------
+20220313_12_41_39: - #run: 0
+20220313_12_41_39: OK
+20220313_12_41_39: Execution time: 6237194 us
+20220313_12_41_39: Time for CUDA kernels:	4578560 us
+20220313_12_41_45: - #run: 1
+20220313_12_41_45: OK
+20220313_12_41_45: Execution time: 6208717 us
+20220313_12_41_45: Time for CUDA kernels:	4551113 us
+20220313_12_41_51: - #run: 2
+20220313_12_41_51: OK
+20220313_12_41_51: Execution time: 6277561 us
+20220313_12_41_51: Time for CUDA kernels:	4599570 us
+20220313_12_41_52: ------------------------------
+20220313_12_41_52: Hw: Jetson TX2, Pascal arch   
+20220313_12_41_52: Test: MMULT Version: DMR 
+20220313_12_41_52: Replicating the input for each kernel
+20220313_12_41_52: matrix size:3072
+20220313_12_41_52: ------------------------------
+20220313_12_41_59: - #run: 0
+20220313_12_41_59: OK
+20220313_12_41_59: Execution time: 6187294 us
+20220313_12_41_59: Time for CUDA kernels:	4554055 us
+20220313_12_42_06: -run: 1; the launch timed out and was terminated in mmult.cu at line 526
+20220313_12_42_07: ------------------------------
+20220313_12_42_07: Hw: Jetson TX2, Pascal arch   
+20220313_12_42_07: Test: MMULT Version: DMR 
+20220313_12_42_07: Replicating the input for each kernel
+20220313_12_42_07: matrix size:3072
+20220313_12_42_07: ------------------------------
+20220313_12_42_14: - #run: 0
+20220313_12_42_14: OK
+20220313_12_42_14: Execution time: 6236960 us
+20220313_12_42_14: Time for CUDA kernels:	4572541 us
+20220313_12_42_20: - #run: 1
+20220313_12_42_20: OK
+20220313_12_42_20: Execution time: 6186576 us
+20220313_12_42_20: Time for CUDA kernels:	4564184 us
+20220313_12_42_26: - #run: 2
+20220313_12_42_26: OK
+20220313_12_42_26: Execution time: 6206909 us
+20220313_12_42_26: Time for CUDA kernels:	4577614 us
+20220313_12_42_27: ------------------------------
+20220313_12_42_27: Hw: Jetson TX2, Pascal arch   
+20220313_12_42_27: Test: MMULT Version: DMR 
+20220313_12_42_27: Replicating the input for each kernel
+20220313_12_42_27: matrix size:3072
+20220313_12_42_27: ------------------------------
+20220313_12_42_34: - #run: 0
+20220313_12_42_34: OK
+20220313_12_42_34: Execution time: 6185356 us
+20220313_12_42_34: Time for CUDA kernels:	4549242 us
+20220313_12_42_51: posible HANG

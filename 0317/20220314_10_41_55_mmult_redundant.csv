@@ -1,0 +1,12 @@
+20220314_10_41_55: 202203 INICIANDO TEST
+20220314_10_42_24: ------------------------------
+20220314_10_42_24: Hw: Jetson TX2, Pascal arch   
+20220314_10_42_24: Test: MMULT Version: DMR 
+20220314_10_42_24: Replicating the input for each kernel
+20220314_10_42_24: matrix size:3072
+20220314_10_42_24: ------------------------------
+20220314_10_42_31: - #run: 0
+20220314_10_42_31: OK
+20220314_10_42_31: Execution time: 6401541 us
+20220314_10_42_31: Time for CUDA kernels:	4660415 us
+20220314_10_42_48: posible HANG
